@@ -1,0 +1,260 @@
+[
+    {
+        "id": 1,
+        "pergunta": "De acordo com o código de trânsito em vigor, a velocidade máxima para automóveis, camionetas e motocicletas que transitam em rodovias de pista SIMPLES, sem sinalização é de:",
+        "r01": "90 Km/h",
+        "r02": "100 Km/h",
+        "r03": "110 Km/h",
+        "r04": "120 Km/h"
+    },
+    {
+        "id": 2,
+        "pergunta": "A via urbana cuja a velocidade máxima é 60 km/h é classificada de:",
+        "r01": "Arterial.",
+        "r02": "Local.",
+        "r03": "Coletora.",
+        "r04": "Trânsito rápido." 
+    },
+    {
+        "id": "",
+        "pergunta": "De acordo com a Lei n. 13.281 de 23 de 2016, dirigir com Carteira Nacional de Habilitação ou Permissão para dirigir com categoria diferente da do veículo que esteja conduzindo, sofrerá qual infração, penalidade e medida administrativa:",
+        "r01": "Gravíssima; multa (duas vezes) e retenção do veículo até a apresentação de condutor habilitado.",
+        "r02": "Grave; multa (três vezes) e Retenção do veículo até a apresentação de condutor habilitado.",
+        "r03": "Grave; multa (três vezes) e recolhimento do Certificado de Licenciamento Anual.",
+        "r04": "Gravíssima; multa (duas vezes) e remoção do veículo até a apresentação de condutor habilitado." 
+    },
+    {
+        "id": "",
+        "pergunta": "Para dirigir um veículo, além da Carteira Nacional de Habilitação, o condutor deverá portar:",
+        "r01": "o Certificado de Registro e Licenciamento de Veículo",
+        "r02": "a cópia do Certificado de Registro de Veículo",
+        "r03": "Certificado de Registro de Veículo",
+        "r04": "a cópia autenticada do Certificado de Registro e Licenciamento de veículo" 
+    },
+    {
+        "id": "",
+        "pergunta": "De acordo com a legislação de trânsito, o condutor NÃO pode parar o veículo em locais como:",
+        "r01": "Viadutos e túneis.",
+        "r02": "Próximo a borda da pista.",
+        "r03": "Acostamentos de rodovias.",
+        "r04": "Mais de cinco metros de esquina." 
+    },
+    {
+        "id": "",
+        "pergunta": "As lanternas de freio e a lanterna de marcha à ré dos veículos devem possuir, respectivamente, as cores:",
+        "r01": "vermelha e branca",
+        "r02": "vermelha e amarela",
+        "r03": "amarela e branca",
+        "r04": "amarela e vermelha" 
+    },
+    {
+        "id": "",
+        "pergunta": "Ao condutor que tenha Permissão para Dirigir na categoria B será conferida a Carteira Nacional de Habilitação após um ano:",
+        "r01": "desde que não tenha cometido nenhuma infração de natureza grave ou gravíssima, ou seja reincidente em infração média.",
+        "r02": "desde que não tenha cometido nenhuma infração de natureza gravíssima.",
+        "r03": "desde que não tenha cometido nenhuma infração de natureza grave ou gravíssima.",
+        "r04": "desde que não tenha cometido nenhuma infração." 
+    },
+    {
+        "id": "",
+        "pergunta": "Transitar com o veículo em ciclovias ou ciclofaixa é?",
+        "r01": "Infração gravíssima sujeito a multa.",
+        "r02": "Permitido, caso não haja fluxo de ciclistas.",
+        "r03": "Permitido, caso seja feito com velocidade compatível com a segurança.",
+        "r04": "Proibido e sujeito a penalidade de advertência." 
+    },
+    {
+        "id": "",
+        "pergunta": "Segundo o Código de Trânsito Brasileiro, parágrafo 2º do art. 147, o exame de aptidão física e mental será preliminar e renovável. Qual a periodicidade de renovação desse exame para quem tem idade inferior a 50 anos?",
+        "r01": "10 anos",
+        "r02": "15 anos",
+        "r03": "5 anos",
+        "r04": "3 anos" 
+    },
+    {
+        "id": "",
+        "pergunta": "Em que locais não se podem realizar ultrapassagens?",
+        "r01": "Em curvas e faixas contínuas.",
+        "r02": "A ultrapassagem nunca deve ocorrer para não causar acidentes.",
+        "r03": "Onde há cones e paredes.",
+        "r04": "Espaços influentes e em marcha à ré." 
+    },
+    {
+        "id": "",
+        "pergunta": "Do ponto de vista da direção defensiva, um condutor responsável pode ser reconhecido quando:",
+        "r01": "dimensiona os riscos e age com cautela antecipadamente, mesmo que a situação tenha sido criada por outro usuário da via",
+        "r02": "acha que é seguro ao fazer ultrapassagem de outro veículo sobre pontes em uma rodovia",
+        "r03": "manifesta total controle sobre o veículo que não precisa dirigir com as duas mãos ao volante",
+        "r04": "demonstra toda sua habilidade ao dirigir sob intensa neblina, mantendo a mesma velocidade em que vinha dirigindo" 
+    },
+    {
+        "id": "",
+        "pergunta": "Em direção segura, há a sugestão da “regra dos dois segundos”, que consiste em o condutor:",
+        "r01": "calcular uma distância segura em relação ao veículo que trafega à sua frente",
+        "r02": "prever se é possível atravessar um cruzamento quando o semáforo ainda está no amarelo",
+        "r03": "avaliar o comportamento dos veículos à sua volta e procurar antever as situações de perigo",
+        "r04": "desviar seu olhar da pista, sem que correr riscos de acidente, no período máximo de dois segundos" 
+    },
+    {
+        "id": "",
+        "pergunta": "Algumas ações dos ciclistas no trânsito impactam diretamente na sua própria segurança, portanto devem:",
+        "r01": "Sinalizar suas intenções.",
+        "r02": "Trafegar nas vias junto aos carros.",
+        "r03": "Manter a distância de 1m dos veículos.",
+        "r04": "Utilizar fones de ouvido." 
+    },
+    {
+        "id": "",
+        "pergunta": "Quais são os elementos fundamentais da Direção Defensiva?",
+        "r01": "Conhecimento, atenção, previsão, decisão, habilidade.",
+        "r02": "Concentração, cordialidade, afetividade, agilidade, iniciativa.",
+        "r03": "Prontidão, dinamismo, premonição, discernimento.",
+        "r04": "Disposição, integração, capacidade, boa visão e audição." 
+    },
+    {
+        "id": "",
+        "pergunta": "Os procedimentos de reduzir a velocidade, acender faróis baixos, aumentar a distância de segurança e redobrar a atenção, devem ser tomadas pelo condutor nas ocasiões de:",
+        "r01": "chuva e má visibilidade",
+        "r02": "ofuscamento da visão",
+        "r03": "aquaplanagem",
+        "r04": "trânsito intenso" 
+    },
+    {
+        "id": "",
+        "pergunta": "O que pode alterar o estado mental do condutor?",
+        "r01": "As grandes preocupações, tristezas, inseguranças, depressão, medos, que ocorrem na vida das pessoas.",
+        "r02": "O manual de instruções do veículo.",
+        "r03": "A ultrapassagem correta.",
+        "r04": "Os sinais de trânsito." 
+    },
+    {
+        "id": "",
+        "pergunta": "Em direção defensiva, habilidade significa:",
+        "r01": "Manusear todos os comandos com desenvoltura.",
+        "r02": "Dirigir em alta velocidade e não colidir o veículo.",
+        "r03": "Saber dirigir com cuidado, mesmo estando alcoolizado.",
+        "r04": "Significa dirigir bem, sem acidentes, mesmo sem ter a Carteira Nacional de Habilitação." 
+    },
+    {
+        "id": "",
+        "pergunta": "O condutor deve manter constantemente sua atenção na direção do veículo. Alguns fatores diminuem a concentração e retardam os reflexos na condução do veículo. A ação que deve ser evitada, pois pode afetar a concentração do condutor, é:",
+        "r01": "conversar ao celular, no modo viva-voz.",
+        "r02": "ouvir música suave, em volume moderado.",
+        "r03": "fazer uma refeição leve antes de dirigir.",
+        "r04": "trafegar por lugares desconhecidos, não habituais." 
+    },
+    {
+        "id": "",
+        "pergunta": "Ultrapassagens sem segurança podem causar acidentes graves, até mesmo com mortes, decorrentes de colisões com veículos que seguem em sentido contrário. Por esse motivo, é proibido realizar ultrapassagem em:",
+        "r01": "Aclives e lombadas.",
+        "r02": "Locais apropriados.",
+        "r03": "Condições com boa visibilidade.",
+        "r04": "Lugares permitidos." 
+    },
+    {
+        "id": "",
+        "pergunta": "Durante ou após a chuva, a água sobre a pista pode provocar aquaplanagem, situação que impede a aderência dos pneus ao solo. Para evitar que isso ocorra, qual é o procedimento correto?",
+        "r01": "Tirar o pé do acelerador, não acionar o freio, não virar o volante para a direita ou para a esquerda e não usar marcha de força.",
+        "r02": "Não tirar o pé do acelerador, não acionar o freio, virar o volante para a direita e usar marcha de força.",
+        "r03": "Tirar o pé do acelerador, acionar o freio, virar o volante para a direita e não usar marcha de força.",
+        "r04": "Não tirar o pé do acelerador, acionar o freio e virar o volante para a esquerda." 
+    },
+    {
+        "id": "",
+        "pergunta": "Os ferimentos abertos e fechados são lesões na pele que foram causadas por corte ou perfuração. Durante o primeiro atendimento o que deve ser feito?",
+        "r01": "Usar luvas, nunca retirar qualquer material estranho dos ferimentos e não apertar demais a atadura quando for colocá-la.",
+        "r02": "Usar luvas, retirar qualquer material estranho dos ferimentos e não apertar demais a atadura quando for colocá-la e oferecer água à vítima.",
+        "r03": "Usar luvas, apertar bastante a faixa quando for colocá-la e realize o curativo de três pontos.",
+        "r04": "Retirar qualquer material estranho dos ferimentos e apertar bem a atadura quando, para estancar o sangramento." 
+    },
+    {
+        "id": "",
+        "pergunta": "Diante da relação ser humano – meio ambiente – veículo, pode-se afirmar que:",
+        "r01": "Lavar o carro com mangueira provoca um grande desperdício de água.",
+        "r02": "Não há relação entre preservação ambiental com a lavagem de veículos.",
+        "r03": "Ao lavar o carro, não precisa lavar os pneus, pois irão sujar de novo depois.",
+        "r04": "Deve-se somente lavar os vidros do carro, nada mais." 
+    },
+    {
+        "id": "",
+        "pergunta": "Qual das ações abaixo devem ser executadas diante da ocorrência de acidentes de trânsito?",
+        "r01": "Evitar pânico no local, pois essa reação poderá assustar a vítima.",
+        "r02": "Permitir que pessoas que estão próximas do acidente colaborem no atendimento à vítima.",
+        "r03": "Desligar a chave de ignição e os cabos da bateria dos veículos envolvidos no acidente mesmo em caso de incêndio do veículo.",
+        "r04": "Chamar o serviço especializado para utilizar o extintor de incêndio, e não manusear esse equipamento mesmo que tenha conhecimento de como usá-lo." 
+    },
+    {
+        "id": "",
+        "pergunta": "A poluição atmosférica, visual, sonora e de gases poluentes é provocada pelo:",
+        "r01": "desequilíbrio na relação trânsito e meio ambiente",
+        "r02": "uso inadequado do acostamento como lugar de descanso",
+        "r03": "excesso de velocidade e descaso à sinalização",
+        "r04": "mau planejamento de estradas" 
+    },
+    {
+        "id": "",
+        "pergunta": "O que o condutor deve fazer quando se envolve em um acidente de trânsito ou quando presencia um acidente?",
+        "r01": "Deve-se sinalizar a área em que o acidente ocorreu para evitar novos acidentes.",
+        "r02": "Em acidentes sem vítimas, é obrigatório acionar a autoridade de trânsito mais próxima.",
+        "r03": "Deve-se prestar os primeiros socorros retirando as vítimas do local e colocando-as no acostamento.",
+        "r04": "Quando o acidente não tiver vítimas, é obrigatório realizar o Boletim de Ocorrências (BO)." 
+    },
+    {
+        "id": "",
+        "pergunta": "Quais os detalhes você deverá informar nas ligações de solicitação de socorro em caso de acidentes?",
+        "r01": "Local exato e tipo de acidente",
+        "r02": "Nome dos parentes da vítima.",
+        "r03": "Grau de escolaridade da vítima.",
+        "r04": "Tipo de acidente e local onde a vítima estudou" 
+    },
+    {
+        "id": "",
+        "pergunta": "O que significa a sigla CONAMA?",
+        "r01": "Conselho nacional do meio ambiente",
+        "r02": "Conselho nacional meio ambientalismo.",
+        "r03": "Conselho ambiental mundial.",
+        "r04": "Conselho nacional amazônico." 
+    },
+    {
+        "id": "",
+        "pergunta": "Em acidentes com motociclistas, devemos:",
+        "r01": "Não remover o capacete e permanecer aguardando socorro",
+        "r02": "Remover o capacete para que respire melhor.",
+        "r03": "Mudar a posição do motociclista para acomodá-lo melhor.",
+        "r04": "Só remover o capacete se ele estiver com muita dor." 
+    },
+    {
+        "id": "",
+        "pergunta": "Os veículos que apresentam maior potencial de poluição do ar são aqueles:",
+        "r01": "Que utilizam como combustíveis a gasolina e o diesel",
+        "r02": "Que utilizam o sistema elétrico.",
+        "r03": "Movidos a propulsão humana.",
+        "r04": "Que utilizam gás natural" 
+    },
+    {
+        "id": "",
+        "pergunta": "Os tipos de extintores são:",
+        "r01": "pó químico, água pressurizada, espuma mecânica e gás carbônico",
+        "r02": "somente água pressurizada e pó químico",
+        "r03": "somente pó químico",
+        "r04": "apenas gás carbônico e água pressurizada" 
+    },
+    {
+        "id": "",
+        "pergunta": "Quais os processos de extinção do fogo?",
+        "r01": "Resfriamento, abafamento e isolamento.",
+        "r02": "Congelamento do fogo.",
+        "r03": "Resfriamento e congelamento do material.",
+        "r04": "Primário e secundário." 
+    },
+    {
+        "id": "",
+        "pergunta": "",
+        "r01": "",
+        "r02": "",
+        "r03": "",
+        "r04": "" 
+    }
+
+    
+]
