@@ -27,6 +27,10 @@ function Perguntas() {
         }
     }
 
+    //randomizando as perguntas
+
+    
+
     return (
         <div>
             <h4><span>{perguntaAtual+ 1 + ") "}</span>{json[perguntaAtual].pergunta}</h4>
