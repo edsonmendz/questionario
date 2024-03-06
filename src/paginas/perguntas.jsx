@@ -15,16 +15,16 @@ function Perguntas() {
     // Array para armazenar as perguntas e respostas sorteadas
     const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
     const [respostasSorteadas, setRespostasSorteadas] = useState([]);
-    const [classesEscolhidas, setClassesEscolhidas] = useState([]);
 
     // Função para randomizar perguntas e respostas
     function randomizarPerguntas() {
         const maximoPerguntas = 30;
         const sorteadas = [];
         while (sorteadas.length < maximoPerguntas) {
-            const numeroAleatorio = Math.floor(Math.random() * json.length - 1);
+            const numeroAleatorio = Math.floor(Math.random() * json.length);
             if (!sorteadas.includes(numeroAleatorio)) {
                 sorteadas.push(numeroAleatorio);
+                console.log(numeroAleatorio)
             }
         }
         return sorteadas;
@@ -37,7 +37,7 @@ function Perguntas() {
             const numeroAleatorio = Math.floor(Math.random() * 4);
             if (!sorteadas.includes(numeroAleatorio)) {
                 sorteadas.push(numeroAleatorio);
-            }
+            }            
         }
         return sorteadas;
     }
@@ -92,6 +92,8 @@ function Perguntas() {
         // Adicionar a classe 'escolhido' ao botão clicado
         resposta.target.classList.add('escolhido');
     }
+
+    
 
     return (
         <div>
