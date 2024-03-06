@@ -9,3 +9,7 @@
 .btn:hover {
     color: #ffbb33;
 }
+
+.escolhido {
+    background-color: aqua;
+}

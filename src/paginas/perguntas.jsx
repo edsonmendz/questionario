@@ -1,4 +1,5 @@
 import Botao from "../layout/botao"
+import './perguntas.css'
 import { useState, useEffect } from "react";
 
 function Perguntas() {
@@ -11,15 +12,17 @@ function Perguntas() {
     // contador de estados
     let encerrado = false;
 
-    // Array para armazenar as perguntas sorteadas
+    // Array para armazenar as perguntas e respostas sorteadas
     const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
+    const [respostasSorteadas, setRespostasSorteadas] = useState([]);
+    const [classesEscolhidas, setClassesEscolhidas] = useState([]);
 
-    // Função para randomizar perguntas
+    // Função para randomizar perguntas e respostas
     function randomizarPerguntas() {
         const maximoPerguntas = 30;
         const sorteadas = [];
         while (sorteadas.length < maximoPerguntas) {
-            const numeroAleatorio = Math.floor(Math.random() * json.length);
+            const numeroAleatorio = Math.floor(Math.random() * json.length - 1);
             if (!sorteadas.includes(numeroAleatorio)) {
                 sorteadas.push(numeroAleatorio);
             }
@@ -27,13 +30,32 @@ function Perguntas() {
         return sorteadas;
     }
 
-    // Chamada para randomizar as perguntas quando o componente é montado
+    function randomizarRespostas() {
+        const maximoRespostas = 4;
+        const sorteadas = [];
+        while (sorteadas.length < maximoRespostas) {
+            const numeroAleatorio = Math.floor(Math.random() * 4);
+            if (!sorteadas.includes(numeroAleatorio)) {
+                sorteadas.push(numeroAleatorio);
+            }
+        }
+        return sorteadas;
+    }
+
+    // Chamada para randomizar as perguntas e respostas quando o componente é montado
     useEffect(() => {
         setPerguntasSorteadas(randomizarPerguntas());
     }, []);
 
+    useEffect(() => {
+        setRespostasSorteadas(randomizarRespostas());
+    }, []);
+
     // Renderizar o componente somente quando perguntasSorteadas estiver pronto
     if (perguntasSorteadas.length === 0) {
+        return null;
+    }
+    if (respostasSorteadas.length === 0) {
         return null;
     }
 
@@ -55,19 +77,31 @@ function Perguntas() {
         }
     }
 
+    // Variando a ordem das perguntas
     const perguntaAtualObjeto = json[perguntasSorteadas[perguntaAtual]];
+    let resposta1 = 'r0' + (respostasSorteadas[0] + 1)
+    let resposta2 = 'r0' + (respostasSorteadas[1] + 1)
+    let resposta3 = 'r0' + (respostasSorteadas[2] + 1)
+    let resposta4 = 'r0' + (respostasSorteadas[3] + 1)
 
-    console.log(json[perguntasSorteadas[perguntaAtual]])
+    function escolher(resposta) {
+        // Limpar todas as classes existentes em todos os botões
+        document.querySelectorAll('button').forEach(button => {
+            button.classList.remove('escolhido');
+        });
+        // Adicionar a classe 'escolhido' ao botão clicado
+        resposta.target.classList.add('escolhido');
+    }
 
     return (
         <div>
-            <h4><span>{perguntaAtual + 1 + ") "}</span>{perguntaAtualObjeto.pergunta}</h4>
+            <h3><span>{perguntaAtual + 1 + ") "}</span>{perguntaAtualObjeto.pergunta}</h3>
             <div>
                 <ul>
-                    <li><span>{"A) "}</span>{perguntaAtualObjeto.r01}</li>
-                    <li><span>{"B) "}</span>{perguntaAtualObjeto.r02}</li>
-                    <li><span>{"C) "}</span>{perguntaAtualObjeto.r03}</li>
-                    <li><span>{"D) "}</span>{perguntaAtualObjeto.r04}</li>
+                    <li><button id="r1" onClick={escolher}><span>{"A) "}</span>{perguntaAtualObjeto[resposta1]}</button></li>
+                    <li><button id="r2" onClick={escolher}><span>{"B) "}</span>{perguntaAtualObjeto[resposta2]}</button></li>
+                    <li><button id="r3" onClick={escolher}><span>{"C) "}</span>{perguntaAtualObjeto[resposta3]}</button></li>
+                    <li><button id="r4" onClick={escolher}><span>{"D) "}</span>{perguntaAtualObjeto[resposta4]}</button></li>
                 </ul>
             </div>
             <ul>

@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+li {
+    padding: 5px 0px;    
+}
+
+button {
+    padding: 7px;
+    font-size: 18px;
+    width: 100%;
+}
