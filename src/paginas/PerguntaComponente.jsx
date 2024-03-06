@@ -1,13 +1,14 @@
 import React from 'react';
+import './perguntas.css'
 
-function PerguntaComponente({ perguntaAtualObjeto, escolherResposta }) {
+function PerguntaComponente({ perguntaAtualObjeto, indice, escolherResposta }) {
     if (!perguntaAtualObjeto) {
         return null; // Retorna null se perguntaAtualObjeto for undefined
     }
 
     return (
         <div>
-            <h4><span>{perguntaAtualObjeto.id + 1 + ") "}</span>{perguntaAtualObjeto.pergunta}</h4>
+            <h4><span>{indice + ") "}</span>{perguntaAtualObjeto.pergunta}</h4>
             <div>
                 <ul>
                     <li>

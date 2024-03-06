@@ -12,3 +12,7 @@ button {
     font-size: 18px;
     width: 100%;
 }
+
+.escolhido {
+    background-color: aqua;
+}

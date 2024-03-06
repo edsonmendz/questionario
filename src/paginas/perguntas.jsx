@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PerguntaComponente from './PerguntaComponente';
 import BotaoComponente from './BotaoComponente';
 
+
 function Perguntas() {
     const json = require('../db.json');
     const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
@@ -28,6 +29,8 @@ function Perguntas() {
         const novasRespostas = [...respostas];
         novasRespostas[perguntaAtual] = indiceResposta;
         setRespostas(novasRespostas);
+        
+    console.log(respostas)
     }
 
     function proximaPergunta() {
@@ -43,18 +46,20 @@ function Perguntas() {
     }
 
     const perguntaAtualObjeto = json[perguntasSorteadas[perguntaAtual]];
-
-    console.log('perguntaAtualObjeto:', perguntaAtualObjeto); // Adicionado para depuração
+    const numeroPerguntaAtual = perguntaAtual + 1; // Número ordinal
 
     return (
         <div>
-            <PerguntaComponente perguntaAtualObjeto={perguntaAtualObjeto} escolherResposta={escolherResposta} />
+            <PerguntaComponente 
+                perguntaAtualObjeto={perguntaAtualObjeto} 
+                indice={numeroPerguntaAtual} // Passa o número ordinal
+                escolherResposta={escolherResposta} 
+            />
             <ul>
                 <BotaoComponente text='voltar' onClick={perguntaAnterior} />
                 <BotaoComponente text='encerrar' />
                 <BotaoComponente text='próximo' onClick={proximaPergunta} />
             </ul>
-            {/* Para verificar o array de respostas, você pode usar console.log(respostas) */}
         </div>
     );
 }
