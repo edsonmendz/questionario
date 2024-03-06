@@ -8,6 +8,7 @@ function Home() {
             <p>Preare-se para as perguntas do Transporte de Produtos perigosos com este simulado</p>
             <br />
             <Botao to='/perguntas' text='Começar' />
+            <p>por:Edson Mendes</p>
         </div>
     )
 }
