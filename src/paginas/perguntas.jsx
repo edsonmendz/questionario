@@ -1,45 +1,73 @@
 import Botao from "../layout/botao"
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 
 function Perguntas() {
     // questionário importado
     const json = require('../db.json');
 
-    //contador da pergunta atual
-    let [perguntaAtual, setPerguntaAtual] = useState(0)
+    // contador da pergunta atual
+    const [perguntaAtual, setPerguntaAtual] = useState(0);
 
-    //Alterar a pergunta Atual
+    // contador de estados
+    let encerrado = false;
 
+    // Array para armazenar as perguntas sorteadas
+    const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
+
+    // Função para randomizar perguntas
+    function randomizarPerguntas() {
+        const maximoPerguntas = 30;
+        const sorteadas = [];
+        while (sorteadas.length < maximoPerguntas) {
+            const numeroAleatorio = Math.floor(Math.random() * json.length);
+            if (!sorteadas.includes(numeroAleatorio)) {
+                sorteadas.push(numeroAleatorio);
+            }
+        }
+        return sorteadas;
+    }
+
+    // Chamada para randomizar as perguntas quando o componente é montado
+    useEffect(() => {
+        setPerguntasSorteadas(randomizarPerguntas());
+    }, []);
+
+    // Renderizar o componente somente quando perguntasSorteadas estiver pronto
+    if (perguntasSorteadas.length === 0) {
+        return null;
+    }
+
+    // Função para ir para a próxima pergunta
     function proximaPergunta() {
         if (perguntaAtual < 29) {
-            setPerguntaAtual(perguntaAtual +1)
+            setPerguntaAtual(perguntaAtual + 1);
         } else {
-            setPerguntaAtual(perguntaAtual = 0)
+            setPerguntaAtual(0);
         }
     }
 
+    // Função para ir para a pergunta anterior
     function perguntaAnterior() {
         if (perguntaAtual > 0) {
-            setPerguntaAtual(perguntaAtual - 1)
+            setPerguntaAtual(perguntaAtual - 1);
         } else {
-            setPerguntaAtual(perguntaAtual = 29)
+            setPerguntaAtual(29);
         }
     }
 
-    //randomizando as perguntas
+    const perguntaAtualObjeto = json[perguntasSorteadas[perguntaAtual]];
 
-    
+    console.log(json[perguntasSorteadas[perguntaAtual]])
 
     return (
         <div>
-            <h4><span>{perguntaAtual+ 1 + ") "}</span>{json[perguntaAtual].pergunta}</h4>
+            <h4><span>{perguntaAtual + 1 + ") "}</span>{perguntaAtualObjeto.pergunta}</h4>
             <div>
                 <ul>
-                    <li><span>{"A) "}</span>{json[perguntaAtual].r01}</li>
-                    <li><span>{"B) "}</span>{json[perguntaAtual].r02}</li>
-                    <li><span>{"C) "}</span>{json[perguntaAtual].r03}</li>
-                    <li><span>{"D) "}</span>{json[perguntaAtual].r04}</li>
+                    <li><span>{"A) "}</span>{perguntaAtualObjeto.r01}</li>
+                    <li><span>{"B) "}</span>{perguntaAtualObjeto.r02}</li>
+                    <li><span>{"C) "}</span>{perguntaAtualObjeto.r03}</li>
+                    <li><span>{"D) "}</span>{perguntaAtualObjeto.r04}</li>
                 </ul>
             </div>
             <ul>
@@ -47,9 +75,8 @@ function Perguntas() {
                 <Botao text='encerrar' />
                 <Botao text='próximo' ativar={proximaPergunta} />
             </ul>
-
         </div>
-    )
+    );
 }
 
-export default Perguntas
+export default Perguntas;
