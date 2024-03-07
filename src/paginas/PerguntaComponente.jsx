@@ -1,36 +1,38 @@
-import React from 'react';
 import './perguntas.css'
+import React, { useState, useEffect } from 'react';
 
-function PerguntaComponente({ perguntaAtualObjeto, indice, escolherResposta }) {
-    if (!perguntaAtualObjeto) {
-        return null; // Retorna null se perguntaAtualObjeto for undefined
-    }
+function PerguntaComponente({ perguntaAtualObjeto, indice, escolherResposta, respostaSelecionada }) {
+    const [respostaSelecionadaLocal, setRespostaSelecionadaLocal] = useState(respostaSelecionada);
+
+    useEffect(() => {
+        setRespostaSelecionadaLocal(respostaSelecionada);
+    }, [respostaSelecionada]);
+
+    const handleClick = (indiceResposta) => {
+        escolherResposta(indiceResposta);
+        setRespostaSelecionadaLocal(indiceResposta);
+    };
+
+    // Define a classe condicionalmente com base na resposta selecionada e no estado da pergunta atualmente respondida
+    const getClass = (indiceResposta) => {
+        if (respostaSelecionadaLocal === indiceResposta) {
+            return 'selecionada';
+        }
+        if (respostaSelecionada !== null) {
+            return 'resposta-respondida';
+        }
+        return '';
+    };
 
     return (
         <div>
-            <h4><span>{indice + ") "}</span>{perguntaAtualObjeto.pergunta}</h4>
+            <h4>{indice + ") " + perguntaAtualObjeto.pergunta}</h4>
             <div>
                 <ul>
-                    <li>
-                        <button onClick={() => escolherResposta(0)}>
-                            <span>A) </span>{perguntaAtualObjeto.r01}
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => escolherResposta(1)}>
-                            <span>B) </span>{perguntaAtualObjeto.r02}
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => escolherResposta(2)}>
-                            <span>C) </span>{perguntaAtualObjeto.r03}
-                        </button>
-                    </li>
-                    <li>
-                        <button onClick={() => escolherResposta(3)}>
-                            <span>D) </span>{perguntaAtualObjeto.r04}
-                        </button>
-                    </li>
+                    <li onClick={() => handleClick(1)} className={getClass(1)}>{"A) " + perguntaAtualObjeto.r01}</li>
+                    <li onClick={() => handleClick(2)} className={getClass(2)}>{"B) " + perguntaAtualObjeto.r02}</li>
+                    <li onClick={() => handleClick(3)} className={getClass(3)}>{"C) " + perguntaAtualObjeto.r03}</li>
+                    <li onClick={() => handleClick(4)} className={getClass(4)}>{"D) " + perguntaAtualObjeto.r04}</li>
                 </ul>
             </div>
         </div>
