@@ -26,9 +26,9 @@ function Perguntas() {
         <div>
             <Pergunta perguntaAtual={perguntaAtual} resposta={questao} />
             <ul>
-                <BotaoComponente text='voltar' onClick={perguntaAnterior} />
-                <BotaoComponente text='encerrar' />
-                <BotaoComponente text='próximo' onClick={proximaPergunta} />
+                <Botao text='voltar' ativar={perguntaAnterior} />
+                <Botao text='encerrar' />
+                <Botao text='próximo' ativar={proximaPergunta} />
             </ul>
         </div>
     )
