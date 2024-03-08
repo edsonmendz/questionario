@@ -1,37 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import PerguntaComponente from './PerguntaComponente';
-import BotaoComponente from './BotaoComponente';
+import Botao from "../layout/botao"
+import { useState } from "react";
+import questoes from '../arraydequestoes/questoes'
+import Pergunta from "../layout/pergunta";
 
 
-function Perguntas() {
-    const json = require('../db.json');
-    const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
-    const [respostas, setRespostas] = useState(Array(30).fill(null));
-    const [perguntaAtual, setPerguntaAtual] = useState(0);
+function Perguntas() {    
 
-    useEffect(() => {
-        setPerguntasSorteadas(randomizarPerguntas());
-    }, []);
-
-    function randomizarPerguntas() {
-        const maximoPerguntas = 30;
-        const sorteadas = [];
-        while (sorteadas.length < maximoPerguntas) {
-            const numeroAleatorio = Math.floor(Math.random() * json.length);
-            if (!sorteadas.includes(numeroAleatorio)) {
-                sorteadas.push(numeroAleatorio);
-            }
-        }
-        return sorteadas;
-    }
-
-    function escolherResposta(indiceResposta) {
-        const novasRespostas = [...respostas];
-        novasRespostas[perguntaAtual] = indiceResposta;
-        setRespostas(novasRespostas);
-        
-    console.log(respostas)
-    }
+    //contador da pergunta atual
+    let [perguntaAtual, setPerguntaAtual] = useState(0)
+    
+    //Alterar a pergunta Atual
 
     function proximaPergunta() {
         setPerguntaAtual((perguntaAtual + 1) % 30);
@@ -40,28 +18,22 @@ function Perguntas() {
     function perguntaAnterior() {
         setPerguntaAtual((perguntaAtual - 1 + 30) % 30);
     }
-
-    if (perguntasSorteadas.length === 0) {
-        return null;
-    }
-
-    const perguntaAtualObjeto = json[perguntasSorteadas[perguntaAtual]];
-    const numeroPerguntaAtual = perguntaAtual + 1; // Número ordinal
-
+    
+    let questao = questoes[perguntaAtual]
+    
+    
     return (
         <div>
-            <PerguntaComponente 
-                perguntaAtualObjeto={perguntaAtualObjeto} 
-                indice={numeroPerguntaAtual} // Passa o número ordinal
-                escolherResposta={escolherResposta} 
-            />
+            <Pergunta perguntaAtual={perguntaAtual} resposta={questao} />
             <ul>
                 <BotaoComponente text='voltar' onClick={perguntaAnterior} />
                 <BotaoComponente text='encerrar' />
                 <BotaoComponente text='próximo' onClick={proximaPergunta} />
             </ul>
         </div>
-    );
+    )
+
+    
 }
 
 export default Perguntas;
