@@ -9,3 +9,41 @@
 .btn:hover {
     color: #ffbb33;
 }
+
+.esperando {
+    background-color: #fff;
+    color: #000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.25s;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.esperando:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.resposta {
+    background-color: skyblue;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.resposta:hover {
+    background-color: #87ceeb88;
+    color: white;
+}
+
+.resposta_certa {
+
+}
+
+.resposta_errada {
+
+}
