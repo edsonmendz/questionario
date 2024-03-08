@@ -5,6 +5,7 @@ import Home from "./paginas/home";
 import Perguntas from "./paginas/perguntas";
 
 function App() {
+  
   return (
     <div className="App">
       <Router>        

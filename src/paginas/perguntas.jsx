@@ -1,59 +1,86 @@
-import Botao from "../layout/botao"
-import { useState } from "react";
-import questoes from '../arraydequestoes/questoes'
+import Botao from "../layout/botao";
+import { useState, useEffect } from "react";
+import questoes from '../arraydequestoes/questoes';
 import Pergunta from "../layout/pergunta";
-
 
 function Perguntas() {    
 
-    //contador da pergunta atual -------------------------------------------------------------
-    let [perguntaAtual, setPerguntaAtual] = useState(0)
-    let [perguntaSorteada, setPerguntaSorteada] = useState([])
+    // Contador da pergunta atual---------------------------------------------------------------------
+    const [perguntaAtual, setPerguntaAtual] = useState(0);
+    const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
+    const [ordemRespostas, setOrdemRespostas] = useState([])
 
-    
-    //Alterar a pergunta Atual ----------------------------------------------------------------
+    // Alterar a pergunta atual ----------------------------------------------------------------------
     function proximaPergunta() {
-        if (perguntaAtual === 29 ) {
-            setPerguntaAtual(0)            
-        }else {            
-            setPerguntaAtual(perguntaAtual + 1);
-        }
+        setPerguntaAtual((perguntaAtual + 1) % 30);
     }
 
     function perguntaAnterior() {
-        if (perguntaAtual === 0 ) {
-            setPerguntaAtual(29)            
-        }else {            
-            setPerguntaAtual(perguntaAtual + 1);
+        setPerguntaAtual((perguntaAtual - 1 + 30) % 30);
+    }
+    
+    // Sortear perguntas---------------------------------------------------------------------------------
+
+    useEffect(() => {
+        setPerguntasSorteadas(randomizarPerguntas());
+    }, []);
+
+    function randomizarPerguntas() {
+        const maximoPerguntas = 30;
+        const sorteadas = [];
+        while (sorteadas.length < maximoPerguntas) {
+            const numeroAleatorio = Math.floor(Math.random() * questoes.length);
+            if (!sorteadas.includes(numeroAleatorio)) {
+                sorteadas.push(numeroAleatorio);
+            }
         }
-    }
-    
-    // EM construção --------------------------------------------------------------------------
-
-    for ( let i = 0 ; i < 29 ; i++) {
-        let aleat = Math.floor(Math.random() * 30)
-        let sorte = []
-        sorte.push(aleat)
-        console.log(sorte)
+        return sorteadas;
     }
 
+    // Exibir a pergunta atual-------------------------------------------------------------------------------------
+    const perguntaAtualSorteada = perguntasSorteadas.length > 0 ? perguntasSorteadas[perguntaAtual] : null;
+    const questao = perguntaAtualSorteada !== null ? questoes[perguntaAtualSorteada] : null;
 
-    let questao = questoes[perguntaAtual]
 
+    //Armazenar Ordem das Respostas-------------------------------------------------------------------------------------
     
-    // FRONT END -------------------------------------------------------------------------------
+    useEffect(() => {
+        gerarOrdemRespostas();
+      }, []);
+    
+      // Função para gerar a ordem das respostas
+      function gerarOrdemRespostas() {
+        const novaOrdem = [];
+        const maximoRespostas = 4;
+    
+        // Loop para criar 30 arrays com 4 números sorteados
+        for (let i = 0; i < 30; i++) {
+          const resposta = [];
+          // Sorteando os números para cada array
+          while( resposta.length < maximoRespostas) {
+            const numeroAleatorio = Math.floor(Math.random() * maximoRespostas + 1);
+            if (!resposta.includes(numeroAleatorio)) {
+                resposta.push(numeroAleatorio);
+            }
+          }
+          novaOrdem.push(resposta);
+        }
+    
+        // Atualizando o estado com a nova ordem das respostas
+        setOrdemRespostas(novaOrdem);
+      }
+
+    // Front-end
     return (
         <div>
-            <Pergunta perguntaAtual={perguntaAtual} resposta={questao} />
+            {questao && <Pergunta perguntaAtual={perguntaAtual} pergunta={questao} resposta={ordemRespostas[perguntaAtual]} />}
             <ul>
                 <Botao text='voltar' ativar={perguntaAnterior} />
                 <Botao text='encerrar' />
                 <Botao text='próximo' ativar={proximaPergunta} />
             </ul>
         </div>
-    )
-
-    
+    );
 }
 
 export default Perguntas;
