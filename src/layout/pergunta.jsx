@@ -1,6 +1,6 @@
 import Resposta from "../layout/resposta";
 
-function Pergunta({perguntaAtual, pergunta, resposta}) {
+function Pergunta({perguntaAtual, pergunta, resposta, responder}) {
     
     return (
         <div>
@@ -8,10 +8,29 @@ function Pergunta({perguntaAtual, pergunta, resposta}) {
             <div>
                 <ul>
 
-                    <Resposta letra={"A"} resposta={pergunta[resposta[0]]} />
-                    <Resposta letra={"B"} resposta={pergunta[resposta[1]]} />
-                    <Resposta letra={"C"} resposta={pergunta[resposta[2]]} />
-                    <Resposta letra={"D"} resposta={pergunta[resposta[3]]} />
+                    <Resposta 
+                    letra={"A"} 
+                    resposta={pergunta[resposta[0]]}
+                    responder={responder}
+                    num={0}
+                    />
+                    <Resposta letra={"B"} 
+                    resposta={pergunta[resposta[1]]}
+                    responder={responder}
+                    num={1}
+                     />
+                    <Resposta 
+                    letra={"C"} 
+                    resposta={pergunta[resposta[2]]} 
+                    responder={responder}
+                    num={2}
+                    />
+                    <Resposta 
+                    letra={"D"} 
+                    resposta={pergunta[resposta[3]]} 
+                    responder={responder}
+                    num={3}
+                    />
                 </ul>
             </div>
         </div>

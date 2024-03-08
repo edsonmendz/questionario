@@ -8,7 +8,8 @@ function Perguntas() {
     // Contador da pergunta atual---------------------------------------------------------------------
     const [perguntaAtual, setPerguntaAtual] = useState(0);
     const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
-    const [ordemRespostas, setOrdemRespostas] = useState([])
+    const [ordemRespostas, setOrdemRespostas] = useState([]);
+    const [cartaoResposta, setCartaoResposta] = useState([])
 
     // Alterar a pergunta atual ----------------------------------------------------------------------
     function proximaPergunta() {
@@ -70,14 +71,29 @@ function Perguntas() {
         setOrdemRespostas(novaOrdem);
       }
 
-    // Front-end
+    // Cartão resposta------------------------------------------------------------------------------
+    
+    function responder(respostaSelecionada) {        
+        const novoCartaoResposta = [...cartaoResposta];
+        novoCartaoResposta[perguntaAtual] = respostaSelecionada;
+        setCartaoResposta(novoCartaoResposta);
+    }
+
+    console.log(cartaoResposta)
+
+    // Front-end-----------------------------------------------------------------------------------
     return (
         <div>
-            {questao && <Pergunta perguntaAtual={perguntaAtual} pergunta={questao} resposta={ordemRespostas[perguntaAtual]} />}
+            {questao && <Pergunta 
+            perguntaAtual={perguntaAtual} 
+            pergunta={questao} 
+            resposta={ordemRespostas[perguntaAtual]}
+            responder={responder}
+             />}
             <ul>
-                <Botao text='voltar' ativar={perguntaAnterior} />
-                <Botao text='encerrar' />
-                <Botao text='próximo' ativar={proximaPergunta} />
+                <Botao text='voltar' classe={'btn'} ativar={perguntaAnterior} />
+                <Botao text='encerrar' classe={'btn'} />
+                <Botao text='próximo' classe={'btn'} ativar={proximaPergunta} />
             </ul>
         </div>
     );
