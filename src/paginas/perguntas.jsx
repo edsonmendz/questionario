@@ -1,14 +1,14 @@
 import Botao from "../layout/botao"
 import { useState } from "react";
+import questoes from '../arraydequestoes/questoes'
+import Pergunta from "../layout/pergunta";
 
 
-function Perguntas() {
-    // questionário importado
-    const json = require('../db.json');
+function Perguntas() {    
 
     //contador da pergunta atual
     let [perguntaAtual, setPerguntaAtual] = useState(0)
-
+    
     //Alterar a pergunta Atual
 
     function proximaPergunta() {
@@ -26,18 +26,13 @@ function Perguntas() {
             setPerguntaAtual(perguntaAtual = 29)
         }
     }
-
+    
+    let questao = questoes[perguntaAtual]
+    
+    
     return (
         <div>
-            <h4><span>{perguntaAtual+ 1 + ") "}</span>{json[perguntaAtual].pergunta}</h4>
-            <div>
-                <ul>
-                    <li><span>{"A) "}</span>{json[perguntaAtual].r01}</li>
-                    <li><span>{"B) "}</span>{json[perguntaAtual].r02}</li>
-                    <li><span>{"C) "}</span>{json[perguntaAtual].r03}</li>
-                    <li><span>{"D) "}</span>{json[perguntaAtual].r04}</li>
-                </ul>
-            </div>
+            <Pergunta perguntaAtual={perguntaAtual} resposta={questao} />
             <ul>
                 <Botao text='voltar' ativar={perguntaAnterior} />
                 <Botao text='encerrar' />
@@ -46,6 +41,8 @@ function Perguntas() {
 
         </div>
     )
+
+    
 }
 
 export default Perguntas
