@@ -48,6 +48,8 @@ function Perguntas() {
     const perguntaAtualObjeto = json[perguntasSorteadas[perguntaAtual]];
     const numeroPerguntaAtual = perguntaAtual + 1; // Número ordinal
 
+    console.log(perguntaAtualObjeto)
+
     return (
         <div>
             <PerguntaComponente 

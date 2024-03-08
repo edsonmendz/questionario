@@ -24,6 +24,10 @@ function PerguntaComponente({ perguntaAtualObjeto, indice, escolherResposta, res
         return '';
     };
 
+    function recuperarResposta() {
+        
+    }
+
     return (
         <div>
             <h4>{indice + ") " + perguntaAtualObjeto.pergunta}</h4>
