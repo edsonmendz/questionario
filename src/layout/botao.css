@@ -25,6 +25,10 @@
     color: white;
 }
 
+.largura100 {
+    width: 100%;
+}
+
 .resposta {
     background-color: skyblue;
     color: white;

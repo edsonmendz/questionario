@@ -1,14 +1,15 @@
 import Botao
  from "./botao";
-function Resposta({ letra, resposta, responder, num }) {     
+function Resposta({ letra, resposta, responder, num, cartaoResposta, perguntaAtual }) {    
+    
+    let classe = cartaoResposta[perguntaAtual] == num ? "resposta largura100" : "esperando largura100" 
 
-    return (
-        <div>            
+    return (                   
             <Botao 
             text={<li><span> {letra +") "}</span>{resposta}</li>} 
             ativar={() => responder(num)}
-            />
-        </div>
+            classe={classe}
+            />        
     );
 }
 

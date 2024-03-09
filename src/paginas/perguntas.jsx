@@ -79,12 +79,13 @@ function Perguntas() {
         setCartaoResposta(novoCartaoResposta);
     }
 
-    console.log(cartaoResposta)
+    console.log(cartaoResposta[perguntaAtual])
 
     // Front-end-----------------------------------------------------------------------------------
     return (
         <div>
             {questao && <Pergunta 
+            cartaoResposta={cartaoResposta}
             perguntaAtual={perguntaAtual} 
             pergunta={questao} 
             resposta={ordemRespostas[perguntaAtual]}

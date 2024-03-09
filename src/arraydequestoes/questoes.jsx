@@ -21,7 +21,7 @@ const questoes = [
         ["Gravíssima; multa (duas vezes) e remoção do veículo até a apresentação de condutor habilitado." ]
     ],
     [
-        ["Para dirigir um veículo], além da Carteira Nacional de Habilitação, o condutor deverá portar:"],
+        ["Para dirigir um veículo, além da Carteira Nacional de Habilitação, o condutor deverá portar:"],
         ["o Certificado de Registro e Licenciamento de Veículo"],
         ["a cópia do Certificado de Registro de Veículo"],
         ["Certificado de Registro de Veículo"],
@@ -77,7 +77,7 @@ const questoes = [
         ["demonstra toda sua habilidade ao dirigir sob intensa neblina, mantendo a mesma velocidade em que vinha dirigindo"]
     ],
     [
-        ["Em direção segura], há a sugestão da “regra dos dois segundos”, que consiste em o condutor:"],
+        ["Em direção segura, há a sugestão da “regra dos dois segundos”, que consiste em o condutor:"],
         ["calcular uma distância segura em relação ao veículo que trafega à sua frente"],
         ["prever se é possível atravessar um cruzamento quando o semáforo ainda está no amarelo"],
         ["avaliar o comportamento dos veículos à sua volta e procurar antever as situações de perigo"],
@@ -189,7 +189,7 @@ const questoes = [
         ["Conselho nacional amazônico."]
     ],
     [
-        ["Em acidentes com motociclistas], devemos:"],
+        ["Em acidentes com motociclistas, devemos:"],
         ["Não remover o capacete e permanecer aguardando socorro"],
         ["Remover o capacete para que respire melhor."],
         ["Mudar a posição do motociclista para acomodá-lo melhor."],
@@ -204,7 +204,7 @@ const questoes = [
     ],
     [
         ["Os tipos de extintores são:"],
-        ["pó químico, água pressurizada], espuma mecânica e gás carbônico"],
+        ["pó químico, água pressurizada, espuma mecânica e gás carbônico"],
         ["somente água pressurizada e pó químico"],
         ["somente pó químico"],
         ["apenas gás carbônico e água pressurizada"]
@@ -215,14 +215,7 @@ const questoes = [
         ["Congelamento do fogo."],
         ["Resfriamento e congelamento do material."],
         ["Primário e secundário."]
-    ],
-    [
-        [""],
-        [""],
-        [""],
-        [""],
-        [""]
-    ],
+    ]
 ];
 
 export default questoes;
