@@ -9,7 +9,9 @@ function Perguntas() {
     const [perguntaAtual, setPerguntaAtual] = useState(0);
     const [perguntasSorteadas, setPerguntasSorteadas] = useState([]);
     const [ordemRespostas, setOrdemRespostas] = useState([]);
-    const [cartaoResposta, setCartaoResposta] = useState([])
+    const [cartaoResposta, setCartaoResposta] = useState([]);
+    const [quantidadeAcertos, setQuantidadeAcertos] = useState(0); 
+    const [finalizou, setFinalizou] = useState(false)
 
     // Alterar a pergunta atual ----------------------------------------------------------------------
     function proximaPergunta() {
@@ -79,7 +81,19 @@ function Perguntas() {
         setCartaoResposta(novoCartaoResposta);
     }
 
-    console.log(cartaoResposta[perguntaAtual])
+    //Encerrando o simulado------------------------------------------------------------------------
+             
+    function finalizar() {
+        let contador = 0
+        for (let i = 0 ; i < 30 ; i++) {
+            if ( ordemRespostas[i].indexOf(1) === cartaoResposta[i] ){ 
+                contador++
+            }
+        }
+        setQuantidadeAcertos(contador)
+        setFinalizou(true)
+    }
+    
 
     // Front-end-----------------------------------------------------------------------------------
     return (
@@ -91,9 +105,12 @@ function Perguntas() {
             resposta={ordemRespostas[perguntaAtual]}
             responder={responder}
              />}
+             {
+                finalizou ? `Acertos: ${quantidadeAcertos}` : ""
+             }
             <ul>
                 <Botao text='voltar' classe={'btn'} ativar={perguntaAnterior} />
-                <Botao text='encerrar' classe={'btn'} />
+                <Botao text='encerrar' classe={'btn'} ativar={finalizar} />
                 <Botao text='próximo' classe={'btn'} ativar={proximaPergunta} />
             </ul>
         </div>
