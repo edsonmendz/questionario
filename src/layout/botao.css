@@ -20,16 +20,16 @@
     border-radius: 10px;
 }
 
+.esperando:hover {
+    background-color: skyblue;
+    color: white;
+}
+
 .fonte1em {
     font-size: 1.2em;
     padding: 0.5em 0.2em;
     margin-left: 1%;
     margin-right: 1%;
-}
-
-.esperando:hover {
-    background-color: skyblue;
-    color: white;
 }
 
 .largura100 {
