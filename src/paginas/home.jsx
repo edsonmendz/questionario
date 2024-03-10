@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 function Home() {
     return (
         <div>
-            <h1>Questionário TPP</h1>
+            <h1>Questionário Transporte de Produtos Perigosos</h1>
             <br />
             <p>Preare-se para as perguntas do Transporte de Produtos perigosos com este simulado</p>
             <br />
-            <Link to={'/perguntas'}><Botao text='Começar' classe={'esperando'} /></Link>
+            <Link to={'/perguntas'}><Botao text='Começar' classe={'esperando largura50'} /></Link>
             <p>por:Edson Mendes</p>
         </div>
     )

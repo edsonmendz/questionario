@@ -2,7 +2,7 @@ import Botao
  from "./botao";
 function Resposta({ letra, resposta, responder, num, cartaoResposta, perguntaAtual, conferirRespostas, ordemRespostas }) {    
     
-    let classe = 'esperando largura100';
+    let classe = 'esperando largura100 margemVertical';
 
     if (conferirRespostas) {
         if (ordemRespostas[perguntaAtual].indexOf(1) === num) {

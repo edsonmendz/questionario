@@ -77,9 +77,10 @@ function Perguntas() {
     // Cartão resposta------------------------------------------------------------------------------
     
     function responder(respostaSelecionada) {        
-        const novoCartaoResposta = [...cartaoResposta];
-        novoCartaoResposta[perguntaAtual] = respostaSelecionada;
-        setCartaoResposta(novoCartaoResposta);
+        if (!conferirRespostas) {const novoCartaoResposta = [...cartaoResposta];
+            novoCartaoResposta[perguntaAtual] = respostaSelecionada;
+            setCartaoResposta(novoCartaoResposta);
+        }else {}
     }
 
     //Encerrando o simulado------------------------------------------------------------------------
@@ -112,7 +113,7 @@ function Perguntas() {
     }
 
     //---------------------------------------------------------------------------------------------
-    console.log(cartaoResposta)
+    
     
 
     // Front-end-----------------------------------------------------------------------------------

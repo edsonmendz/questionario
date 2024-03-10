@@ -20,6 +20,13 @@
     border-radius: 10px;
 }
 
+.fonte1em {
+    font-size: 1.2em;
+    padding: 0.5em 0.2em;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .esperando:hover {
     background-color: skyblue;
     color: white;
@@ -27,6 +34,18 @@
 
 .largura100 {
     width: 100%;
+}
+
+.largura50 {
+    width: 50%;
+}
+
+.largura25 {
+    width: 25%;
+}
+
+.margemVertical {
+    margin: 8px 0;
 }
 
 .resposta {
