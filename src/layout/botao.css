@@ -1,15 +1,3 @@
-.btn {
-    background-color: #222;
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.btn:hover {
-    color: #ffbb33;
-}
-
 .esperando {
     background-color: #fff;
     color: #000;
@@ -21,7 +9,12 @@
 }
 
 .esperando:hover {
-    background-color: skyblue;
+    /* Remova a propriedade background-color do hover */
+    color: #000; /* Mantenha outras propriedades inalteradas se desejar */
+}
+
+.esperando:active {
+    background-color: skyblue; /* Aplique a cor de fundo apenas quando clicado */
     color: white;
 }
 

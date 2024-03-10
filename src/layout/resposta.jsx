@@ -6,12 +6,12 @@ function Resposta({ letra, resposta, responder, num, cartaoResposta, perguntaAtu
 
     if (conferirRespostas) {
         if (ordemRespostas[perguntaAtual].indexOf(1) === num) {
-            classe = "resposta_certa largura100";
+            classe = "resposta_certa largura100 margemVertical";
         } else if (cartaoResposta[perguntaAtual] === num) {
-            classe = "resposta_errada largura100";
+            classe = "resposta_errada largura100 margemVertical";
         }
     } else if (cartaoResposta[perguntaAtual] === num) {
-        classe = "resposta largura100";
+        classe = "resposta largura100 margemVertical";
     }
 
     return (                   

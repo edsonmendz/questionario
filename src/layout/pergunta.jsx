@@ -50,9 +50,9 @@ function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, 
                     />
                 </ul>
                 <ul>
-                <Botao text='voltar' classe={'esperando largura25 fonte1em'} ativar={perguntaAnterior} />
-                <Botao text='encerrar' classe={'esperando largura25 fonte1em'} ativar={finalizar} />
-                <Botao text='próximo' classe={'esperando largura25 fonte1em'} ativar={proximaPergunta} />
+                <Botao text='Voltar' classe={'esperando largura25 fonte1em'} ativar={perguntaAnterior} />
+                <Botao text='Encerrar' classe={'esperando largura25 fonte1em'} ativar={finalizar} />
+                <Botao text='Próximo' classe={'esperando largura25 fonte1em'} ativar={proximaPergunta} />
             </ul>
             </div>
         </div>
