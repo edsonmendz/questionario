@@ -1,7 +1,7 @@
-import Botao from "../layout/botao";
 import { useState, useEffect } from "react";
 import questoes from '../arraydequestoes/questoes';
 import Pergunta from "../layout/pergunta";
+import Finalizar from "./finalizar";
 
 function Perguntas() {    
 
@@ -12,6 +12,7 @@ function Perguntas() {
     const [cartaoResposta, setCartaoResposta] = useState([]);
     const [quantidadeAcertos, setQuantidadeAcertos] = useState(0); 
     const [finalizou, setFinalizou] = useState(false)
+    const [conferirRespostas, setConferirRespostas] = useState(false)
 
     // Alterar a pergunta atual ----------------------------------------------------------------------
     function proximaPergunta() {
@@ -91,28 +92,52 @@ function Perguntas() {
             }
         }
         setQuantidadeAcertos(contador)
-        setFinalizou(true)
+        if(finalizou === false) {
+            setFinalizou(true)
+        }else if( finalizou === true) {
+            setFinalizou(false)
+        }
+        
     }
+
+    //Manipulando conferência ---------------------------------------------------------------------
+
+    function Concluir() {        
+        setConferirRespostas(true)
+        console.log(conferirRespostas)
+    }
+
+    function Conferir() {
+        setFinalizou(false)
+    }
+
     
 
     // Front-end-----------------------------------------------------------------------------------
     return (
         <div>
-            {questao && <Pergunta 
+            {questao && !finalizou && <Pergunta 
+            perguntaAnterior={perguntaAnterior}
+            proximaPergunta={proximaPergunta}
+            finalizar={finalizar}
+            conferirRespostas={conferirRespostas}
             cartaoResposta={cartaoResposta}
             perguntaAtual={perguntaAtual} 
             pergunta={questao} 
             resposta={ordemRespostas[perguntaAtual]}
             responder={responder}
              />}
-             {
-                finalizou ? `Acertos: ${quantidadeAcertos}` : ""
-             }
-            <ul>
-                <Botao text='voltar' classe={'btn'} ativar={perguntaAnterior} />
-                <Botao text='encerrar' classe={'btn'} ativar={finalizar} />
-                <Botao text='próximo' classe={'btn'} ativar={proximaPergunta} />
-            </ul>
+            { finalizou && <Finalizar
+            conferirRespostas={conferirRespostas}
+             Concluir={Concluir}
+             Conferir={Conferir}
+             quantidadeAcertos={quantidadeAcertos}
+             finalizar={finalizar}
+             finalizou={finalizou}
+            />               
+            }
+            
+            
         </div>
     );
 }

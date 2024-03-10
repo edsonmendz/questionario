@@ -1,6 +1,7 @@
 import Resposta from "../layout/resposta";
+import Botao from "./botao";
 import './resposta.css'
-function Pergunta({perguntaAtual, pergunta, resposta, responder, cartaoResposta}) { 
+function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, pergunta, resposta, responder, cartaoResposta}) { 
     
 
     return (
@@ -40,6 +41,11 @@ function Pergunta({perguntaAtual, pergunta, resposta, responder, cartaoResposta}
                     perguntaAtual={perguntaAtual}
                     />
                 </ul>
+                <ul>
+                <Botao text='voltar' classe={'btn'} ativar={perguntaAnterior} />
+                <Botao text='encerrar' classe={'btn'} ativar={finalizar} />
+                <Botao text='próximo' classe={'btn'} ativar={proximaPergunta} />
+            </ul>
             </div>
         </div>
     )

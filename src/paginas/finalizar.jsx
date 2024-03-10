@@ -1,18 +1,28 @@
 import Botao from '../layout/botao'
+import { Link } from 'react-router-dom'
 
-function Finalizar(finalizou, conferirRespostas) {
+function Finalizar({Concluir, Conferir, conferirRespostas,finalizar, quantidadeAcertos}) {
+    
+    console.log(conferirRespostas)
+
     return (
-        <>
-            <div>
+        <>            
+            {!conferirRespostas && (<div>
                 <h4>Tem certeza de que deseja finalizar o simulado?</h4>
-                <Botao text={'Concluir'} />
-                <Botao text={'Voltar'}/>
-            </div>
-            <div>
-                <h3>Você acertou: {finalizou} pergunta{ finalizou != 1 ? 's' : ''}</h3>
-                <Botao text={'Conferir Respostas'} />
-                <Botao text={'Página Inicial'} />
-            </div>
+                <Botao text={'Concluir'} ativar={Concluir} />
+                <Botao text={'Voltar'} ativar={finalizar}/>
+            </div>)
+            }
+
+            {conferirRespostas && (<div>
+                    <h3>Você acertou: {quantidadeAcertos} pergunta{ quantidadeAcertos !== 1 ? 's' : ''}</h3>
+                    <Botao text={'Conferir Respostas'} ativar={Conferir} />
+                    <Link to={'/'}><Botao text={'Página Inicial'} /></Link>
+                </div>)
+                
+            }
+
+            
             
         </>
     )
