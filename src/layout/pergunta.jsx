@@ -1,7 +1,7 @@
 import Resposta from "../layout/resposta";
 import Botao from "./botao";
 import './resposta.css'
-function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, pergunta, resposta, responder, cartaoResposta}) { 
+function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, pergunta, resposta, responder, cartaoResposta, conferirRespostas, ordemRespostas}) { 
     
 
     return (
@@ -16,6 +16,8 @@ function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, 
                     num={0}
                     cartaoResposta={cartaoResposta}
                     perguntaAtual={perguntaAtual}
+                    conferirRespostas={conferirRespostas}
+                    ordemRespostas={ordemRespostas}
                     />
                     <Resposta letra={"B"} 
                     resposta={pergunta[resposta[1]]}
@@ -23,6 +25,8 @@ function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, 
                     num={1}
                     cartaoResposta={cartaoResposta}
                     perguntaAtual={perguntaAtual}
+                    conferirRespostas={conferirRespostas}
+                    ordemRespostas={ordemRespostas}
                      />
                     <Resposta 
                     letra={"C"} 
@@ -31,6 +35,8 @@ function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, 
                     num={2}
                     cartaoResposta={cartaoResposta}
                     perguntaAtual={perguntaAtual}
+                    conferirRespostas={conferirRespostas}
+                    ordemRespostas={ordemRespostas}
                     />
                     <Resposta 
                     letra={"D"} 
@@ -39,6 +45,8 @@ function Pergunta({perguntaAtual, perguntaAnterior, proximaPergunta, finalizar, 
                     num={3}
                     cartaoResposta={cartaoResposta}
                     perguntaAtual={perguntaAtual}
+                    conferirRespostas={conferirRespostas}
+                    ordemRespostas={ordemRespostas}
                     />
                 </ul>
                 <ul>

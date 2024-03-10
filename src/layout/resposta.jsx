@@ -1,8 +1,18 @@
 import Botao
  from "./botao";
-function Resposta({ letra, resposta, responder, num, cartaoResposta, perguntaAtual }) {    
+function Resposta({ letra, resposta, responder, num, cartaoResposta, perguntaAtual, conferirRespostas, ordemRespostas }) {    
     
-    let classe = cartaoResposta[perguntaAtual] == num ? "resposta largura100" : "esperando largura100" 
+    let classe = 'esperando largura100';
+
+    if (conferirRespostas) {
+        if (ordemRespostas[perguntaAtual].indexOf(1) === num) {
+            classe = "resposta_certa largura100";
+        } else if (cartaoResposta[perguntaAtual] === num) {
+            classe = "resposta_errada largura100";
+        }
+    } else if (cartaoResposta[perguntaAtual] === num) {
+        classe = "resposta largura100";
+    }
 
     return (                   
             <Botao 

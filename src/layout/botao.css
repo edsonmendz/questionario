@@ -45,9 +45,21 @@
 }
 
 .resposta_certa {
-
+    background-color: #008000cc;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 2px solid #008000cc;
+    border-radius: 10px;
 }
 
 .resposta_errada {
-
+    background-color: salmon;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 2px solid salmon;
+    border-radius: 10px;
 }

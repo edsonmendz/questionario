@@ -111,6 +111,8 @@ function Perguntas() {
         setFinalizou(false)
     }
 
+    //---------------------------------------------------------------------------------------------
+    console.log(cartaoResposta)
     
 
     // Front-end-----------------------------------------------------------------------------------
@@ -126,6 +128,7 @@ function Perguntas() {
             pergunta={questao} 
             resposta={ordemRespostas[perguntaAtual]}
             responder={responder}
+            ordemRespostas={ordemRespostas}
              />}
             { finalizou && <Finalizar
             conferirRespostas={conferirRespostas}
