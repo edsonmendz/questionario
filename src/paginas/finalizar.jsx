@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 
 function Finalizar({Concluir, Conferir, conferirRespostas,finalizar, quantidadeAcertos}) {
     
-    console.log(conferirRespostas)
-
     return (
         <>            
             {!conferirRespostas && (<div>

@@ -105,7 +105,6 @@ function Perguntas() {
 
     function Concluir() {        
         setConferirRespostas(true)
-        console.log(conferirRespostas)
     }
 
     function Conferir() {
