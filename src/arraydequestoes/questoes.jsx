@@ -22,10 +22,10 @@ const questoes = [
     ],
     [
         ["Para dirigir um veículo, além da Carteira Nacional de Habilitação, o condutor deverá portar:"],
-        ["o Certificado de Registro e Licenciamento de Veículo"],
-        ["a cópia do Certificado de Registro de Veículo"],
-        ["Certificado de Registro de Veículo"],
-        ["a cópia autenticada do Certificado de Registro e Licenciamento de veículo"]
+        ["O Certificado de Registro e Licenciamento de Veículo."],
+        ["A cópia do Certificado de Registro de Veículo."],
+        ["Certificado de Registro de Veículo."],
+        ["A cópia autenticada do Certificado de Registro e Licenciamento de veículo."]
     ],
     [
         ["De acordo com a legislação de trânsito, o condutor NÃO pode parar o veículo em locais como:"],
@@ -36,10 +36,10 @@ const questoes = [
     ],
     [
         ["As lanternas de freio e a lanterna de marcha à ré dos veículos devem possuir, respectivamente, as cores:"],
-        ["vermelha e branca"],
-        ["vermelha e amarela"],
-        ["amarela e branca"],
-        ["amarela e vermelha"]
+        ["Vermelha e branca."],
+        ["Vermelha e amarela."],
+        ["Amarela e branca."],
+        ["Amarela e vermelha."]
     ],
     [
         ["Ao condutor que tenha Permissão para Dirigir na categoria B será conferida a Carteira Nacional de Habilitação após um ano:"],
@@ -71,17 +71,17 @@ const questoes = [
     ],
     [
         ["Do ponto de vista da direção defensiva, um condutor responsável pode ser reconhecido quando:"],
-        ["dimensiona os riscos e age com cautela antecipadamente, mesmo que a situação tenha sido criada por outro usuário da via"],
-        ["acha que é seguro ao fazer ultrapassagem de outro veículo sobre pontes em uma rodovia"],
-        ["manifesta total controle sobre o veículo que não precisa dirigir com as duas mãos ao volante"],
-        ["demonstra toda sua habilidade ao dirigir sob intensa neblina, mantendo a mesma velocidade em que vinha dirigindo"]
+        ["Dimensiona os riscos e age com cautela antecipadamente, mesmo que a situação tenha sido criada por outro usuário da via."],
+        ["Acha que é seguro ao fazer ultrapassagem de outro veículo sobre pontes em uma rodovia."],
+        ["Manifesta total controle sobre o veículo que não precisa dirigir com as duas mãos ao volante."],
+        ["Demonstra toda sua habilidade ao dirigir sob intensa neblina, mantendo a mesma velocidade em que vinha dirigindo."]
     ],
     [
         ["Em direção segura, há a sugestão da “regra dos dois segundos”, que consiste em o condutor:"],
-        ["calcular uma distância segura em relação ao veículo que trafega à sua frente"],
-        ["prever se é possível atravessar um cruzamento quando o semáforo ainda está no amarelo"],
-        ["avaliar o comportamento dos veículos à sua volta e procurar antever as situações de perigo"],
-        ["desviar seu olhar da pista, sem que correr riscos de acidente, no período máximo de dois segundos"]
+        ["Calcular uma distância segura em relação ao veículo que trafega à sua frente."],
+        ["Prever se é possível atravessar um cruzamento quando o semáforo ainda está no amarelo."],
+        ["Avaliar o comportamento dos veículos à sua volta e procurar antever as situações de perigo."],
+        ["Desviar seu olhar da pista, sem que correr riscos de acidente, no período máximo de dois segundos."]
     ],
     [
         ["Algumas ações dos ciclistas no trânsito impactam diretamente na sua própria segurança, portanto devem:"],
@@ -99,10 +99,10 @@ const questoes = [
     ],
     [
         ["Os procedimentos de reduzir a velocidade, acender faróis baixos, aumentar a distância de segurança e redobrar a atenção, devem ser tomadas pelo condutor nas ocasiões de:"],
-        ["chuva e má visibilidade"],
-        ["ofuscamento da visão"],
-        ["aquaplanagem"],
-        ["trânsito intenso"]
+        ["Chuva e má visibilidade."],
+        ["Ofuscamento da visão."],
+        ["Aquaplanagem."],
+        ["Trânsito intenso."]
     ],
     [
         ["O que pode alterar o estado mental do condutor?"],
@@ -162,10 +162,10 @@ const questoes = [
     ],
     [
         ["A poluição atmosférica, visual, sonora e de gases poluentes é provocada pelo:"],
-        ["desequilíbrio na relação trânsito e meio ambiente"],
-        ["uso inadequado do acostamento como lugar de descanso"],
-        ["excesso de velocidade e descaso à sinalização"],
-        ["mau planejamento de estradas"]
+        ["Desequilíbrio na relação trânsito e meio ambiente."],
+        ["Uso inadequado do acostamento como lugar de descanso."],
+        ["Excesso de velocidade e descaso à sinalização."],
+        ["Mau planejamento de estradas."]
     ],
     [
         ["O que o condutor deve fazer quando se envolve em um acidente de trânsito ou quando presencia um acidente?"],
@@ -176,10 +176,10 @@ const questoes = [
     ],
     [
         ["Quais os detalhes você deverá informar nas ligações de solicitação de socorro em caso de acidentes?"],
-        ["Local exato e tipo de acidente"],
+        ["Local exato e tipo de acidente."],
         ["Nome dos parentes da vítima."],
         ["Grau de escolaridade da vítima."],
-        ["Tipo de acidente e local onde a vítima estudou"]
+        ["Tipo de acidente e local onde a vítima estudou."]
     ],
     [
         ["O que significa a sigla CONAMA?"],
@@ -204,10 +204,10 @@ const questoes = [
     ],
     [
         ["Os tipos de extintores são:"],
-        ["pó químico, água pressurizada, espuma mecânica e gás carbônico"],
-        ["somente água pressurizada e pó químico"],
-        ["somente pó químico"],
-        ["apenas gás carbônico e água pressurizada"]
+        ["Pó químico, água pressurizada, espuma mecânica e gás carbônico."],
+        ["Somente água pressurizada e pó químico."],
+        ["Somente pó químico."],
+        ["Apenas gás carbônico e água pressurizada."]
     ],
     [
         ["Quais os processos de extinção do fogo?"],
@@ -215,6 +215,146 @@ const questoes = [
         ["Congelamento do fogo."],
         ["Resfriamento e congelamento do material."],
         ["Primário e secundário."]
+    ],
+    [
+        ["Com relação aos Rótulos de Risco e Painéis de Segurança do veículo transportador de produtos perigosos, é correto afirmar:"],
+        ["Devem estar de acordo com os produtos transportados."],
+        ["Devem ser retirados quando o veículo estiver vazio."],
+        ["Não possuem local específico para serem fixados no veículo."],
+        ["São obrigatórios apenas durante o dia."]
+    ],
+    [
+        ["Com relação à segurança no transporte rodoviário de substâncias corrosivas, pode-se afirmar que:"],
+        ["Todas as alternativas estão corretas."],
+        ["No caso de derramamento, pode-se isolar a poça formada com o líquido."],
+        ["Após descarregar produtos corrosivos, deve-se lavar e secar o tanque para receber outra carga."],
+        ["Durante o transporte, deve-se evitar que as embalagens se atritem para impedir vazamentos."]
+    ],
+    [
+        ["Rótulos de Risco e os Painéis de Segurança devem ser retirados dos veículos, quando:"],
+        ["Após as operações de limpeza e completa descontaminação dos veículos e equipamentos."],
+        ["O veículo estiver estacionado."],
+        ["Estiver no local do descarregamento."],
+        ["A temperatura exceder a 30 graus."]
+    ],
+    [
+        ["São ações de segurança no transporte rodoviário de líquidos inflamáveis:"],
+        ["Os tanques que tenham transportado líquidos inflamáveis devem estar fechados, para não terem contato com fontes de ignição."],
+        ["Os tanques que tenham transportado líquidos inflamáveis devem estar abertos, a fim de evitar a ignição."],
+        ["Motores e canos de escapamentos não precisam ser isolados."],
+        ["Não se deve utilizar madeira no empilhamento horizontal de tambores."]
+    ],
+    [
+        ["Para se evitar a presença de eletricidade estática, no carregamento e descarregamento de determinados produtos, deve-se utilizar:"],
+        ["Cabo antiestático ( cabo-terra)."],
+        ["Material isolante."],
+        ["Nenhum cuidado especial."],
+        ["Água desmineralizada."]
+    ],
+    [
+        ["O Regulamento para Fiscalização de Produtos Controlados (R-105), Classe de Risco 1, determina que a fiscalização será feita:"],
+        ["Pelo Exército."],
+        ["Por qualquer agente de trânsito."],
+        ["Pelo IBAMA."],
+        ["Pela FUNAI."]
+    ],
+    [
+        ["No caso das substâncias tóxicas e infectantes (classe 6), a intoxicação pode ser:"],
+        ["Ingestão, inalação e contato com a pele."],
+        ["Apenas por contato de pele."],
+        ["Ingestão e inalação."],
+        ["Não há riscos de intoxicação."]
+    ],
+    [
+        ["O lixo hospitalar enquadra-se na classe de risco:"],
+        ["6 - Substâncias Tóxicas e Infectantes."],
+        ["3 - Líquidos Inflamáveis."],
+        ["8 - Substâncias Corrosivas."],
+        ["1 - Explosivos."]
+    ],
+    [
+        ["Urânio 235 e Césio 137, são exemplos de substâncias da classe:"],
+        ["7 - Substâncias Radioativas."],
+        ["6 - Substâncias Tóxicas e Infectantes."],
+        ["3 - Líquidos Inflamáveis."],
+        ["8 - Substâncias Corrosivas."]
+    ],
+    [
+        ["Substâncias que podem liberar rapidamente oxigênio, aumentando ou sustentando a combustão, estão contidas na classe:"],
+        ["5 - Substâncias Oxidantes."],
+        ["3 - Substâncias Corrsivas."],
+        ["8 - Materiais Radioativos."],
+        ["7 - Líquidos Inflamáveis."]
+    ],
+    [
+        ["Os veículos que transportam explosivos, quando em movimento, devem manter distância entre si de:"],
+        ["80 metros."],
+        ["100 metros."],
+        ["120 metros."],
+        ["300 metros."]
+    ],
+    [
+        ["Substância que pode inflamar-se em contato com o oxigênio do ar:"],
+        ["Fósforo Branco."],
+        ["Óleo Diesel."],
+        ["Álcool Hidratado."],
+        ["Querosene."]
+    ],
+    [
+        ["No transporte rodoviário de gases devem ser observados os seguintes cuidados:"],
+        ["Os motores e os canos de escapamentos dos veículos devem ser isolados para não transmitir calor."],
+        ["Dirigir sempre com os vidros fechados."],
+        ["As embalagens devem ser expostas ao calor."],
+        ["Cilindros na posição vertical devem ser amarrados com cordas."]
+    ],
+    [
+        ["São exemplos de substância da classe de risco 3:"],
+        ["Gasolina, Etanol, Querosene."],
+        ["Carvão, Pólvora, Dinamite."],
+        ["Césio 137, Urânio, Tório 232."],
+        ["Arsênio, Acetato de Chumbo, Mercurio Composto."]
+    ],
+    [
+        ["As descontaminações de veículos transportadores de substâncias radioativas devem ser realizadas:"],
+        ["Pela Comissão Nacional de Energia Nuclear (CNEM)"],
+        ["Pelo motorista."],
+        ["Em postos de combustível."],
+        ["Pelo proprietário do veículo."]
+    ],
+    [
+        ["Substâncias e artigos perigosos diversos pertencem à Classe de Risco:"],
+        ["9"],
+        ["1"],
+        ["7"],
+        ["5"]
+    ],
+    [
+        ["Para um acidente com vazamento de gases ou vapores tóxicos, o condutor do veículo deve:"],
+        ["Todas as alternativas estão corretas."],
+        ["Parar o veículo e isolar a área."],
+        ["Colocar a proteção respiratória."],
+        ["Identificar as consequências."]
+    ],
+    [
+        ["Os veículos para o transporte de explosivos devem ser do tipo:"],
+        ["Baú ou envolvidos em lona impermeável."],
+        ["Tanque."],
+        ["Carroceria aberta sem lona."],
+        ["Baú com refrigeração."]
+    ],
+    [
+        ["A subclasse 4.1 corresponde à Classe de Risco:"],
+        ["Sólidos Inflamáveis."],
+        ["Líquidos Inflamáveis."],
+        ["Substâncias Perigosas Diversas."],
+        ["Explosivos."]
+    ],
+    [
+        ["O que significa EPI?"],
+        ["Equipamento de Proteção Individual"],
+        ["Equipamento Portátil Individual."],
+        ["Envelope Protetor de Incêncio."],
+        ["Energia Padrão Industrial."]
     ]
 ];
 
