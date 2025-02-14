@@ -14,13 +14,15 @@ function Perguntas() {
     const [finalizou, setFinalizou] = useState(false)
     const [conferirRespostas, setConferirRespostas] = useState(false)
 
+    const maximoPerguntas = 10;
+
     // Alterar a pergunta atual ----------------------------------------------------------------------
     function proximaPergunta() {
-        setPerguntaAtual((perguntaAtual + 1) % 30);
+        setPerguntaAtual((perguntaAtual + 1) % maximoPerguntas);
     }
 
     function perguntaAnterior() {
-        setPerguntaAtual((perguntaAtual - 1 + 30) % 30);
+        setPerguntaAtual((perguntaAtual - 1 + maximoPerguntas) % maximoPerguntas);
     }
     
     // Sortear perguntas---------------------------------------------------------------------------------
@@ -29,8 +31,7 @@ function Perguntas() {
         setPerguntasSorteadas(randomizarPerguntas());
     }, []);
 
-    function randomizarPerguntas() {
-        const maximoPerguntas = 30;
+    function randomizarPerguntas() {        
         const sorteadas = [];
         while (sorteadas.length < maximoPerguntas) {
             const numeroAleatorio = Math.floor(Math.random() * questoes.length);
@@ -58,7 +59,7 @@ function Perguntas() {
         const maximoRespostas = 4;
     
         // Loop para criar 30 arrays com 4 números sorteados
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < maximoPerguntas; i++) {
           const resposta = [];
           // Sorteando os números para cada array
           while( resposta.length < maximoRespostas) {
@@ -87,7 +88,7 @@ function Perguntas() {
              
     function finalizar() {
         let contador = 0
-        for (let i = 0 ; i < 30 ; i++) {
+        for (let i = 0 ; i < maximoPerguntas ; i++) {
             if ( ordemRespostas[i].indexOf(1) === cartaoResposta[i] ){ 
                 contador++
             }

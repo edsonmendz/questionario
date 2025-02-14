@@ -1,250 +1,802 @@
 [
     {
         "id": 1,
-        "pergunta": "De acordo com o código de trânsito em vigor, a velocidade máxima para automóveis, camionetas e motocicletas que transitam em rodovias de pista SIMPLES, sem sinalização é de:",
-        "r01": "90 Km/h",
-        "r02": "100 Km/h",
-        "r03": "110 Km/h",
-        "r04": "120 Km/h"
+        "pergunta": "Qual é o principal objetivo do curso de Transporte de Produtos Perigosos (TPP)?",
+        "r01": "Capacitar condutores para transportar cargas perigosas com segurança.",
+        "r02": "Ensinar técnicas de direção defensiva.",
+        "r03": "Treinar condutores para operar veículos pesados.",
+        "r04": "Preparar condutores para inspeções de trânsito."
     },
     {
         "id": 2,
-        "pergunta": "A via urbana cuja a velocidade máxima é 60 km/h é classificada de:",
-        "r01": "Arterial.",
-        "r02": "Local.",
-        "r03": "Coletora.",
-        "r04": "Trânsito rápido." 
+        "pergunta": "O que significa a sigla ONU em relação ao transporte de produtos perigosos?",
+        "r01": "Organização das Nações Unidas.",
+        "r02": "Organização Nacional de Urgências.",
+        "r03": "Órgão Normativo de Unidades.",
+        "r04": "Organização de Normas Universais."
     },
     {
-        "id": "",
-        "pergunta": "De acordo com a Lei n. 13.281 de 23 de 2016, dirigir com Carteira Nacional de Habilitação ou Permissão para dirigir com categoria diferente da do veículo que esteja conduzindo, sofrerá qual infração, penalidade e medida administrativa:",
-        "r01": "Gravíssima; multa (duas vezes) e retenção do veículo até a apresentação de condutor habilitado.",
-        "r02": "Grave; multa (três vezes) e Retenção do veículo até a apresentação de condutor habilitado.",
-        "r03": "Grave; multa (três vezes) e recolhimento do Certificado de Licenciamento Anual.",
-        "r04": "Gravíssima; multa (duas vezes) e remoção do veículo até a apresentação de condutor habilitado." 
+        "id": 3,
+        "pergunta": "Qual é a função do painel de segurança (painel laranja) em veículos que transportam produtos perigosos?",
+        "r01": "Identificar o tipo de risco e a natureza do produto transportado.",
+        "r02": "Indicar a velocidade máxima permitida para o veículo.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
     },
     {
-        "id": "",
-        "pergunta": "Para dirigir um veículo, além da Carteira Nacional de Habilitação, o condutor deverá portar:",
-        "r01": "o Certificado de Registro e Licenciamento de Veículo",
-        "r02": "a cópia do Certificado de Registro de Veículo",
-        "r03": "Certificado de Registro de Veículo",
-        "r04": "a cópia autenticada do Certificado de Registro e Licenciamento de veículo" 
+        "id": 4,
+        "pergunta": "O que significa o número de risco no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica o tipo de risco associado ao produto transportado.",
+        "r02": "Mostra a quantidade de produto transportado.",
+        "r03": "Identifica o fabricante do produto.",
+        "r04": "Indica a data de validade do produto."
     },
     {
-        "id": "",
-        "pergunta": "De acordo com a legislação de trânsito, o condutor NÃO pode parar o veículo em locais como:",
-        "r01": "Viadutos e túneis.",
-        "r02": "Próximo a borda da pista.",
-        "r03": "Acostamentos de rodovias.",
-        "r04": "Mais de cinco metros de esquina." 
+        "id": 5,
+        "pergunta": "Qual é a classe de risco para produtos inflamáveis no transporte de cargas perigosas?",
+        "r01": "Classe 3.",
+        "r02": "Classe 1.",
+        "r03": "Classe 5.",
+        "r04": "Classe 8."
     },
     {
-        "id": "",
-        "pergunta": "As lanternas de freio e a lanterna de marcha à ré dos veículos devem possuir, respectivamente, as cores:",
-        "r01": "vermelha e branca",
-        "r02": "vermelha e amarela",
-        "r03": "amarela e branca",
-        "r04": "amarela e vermelha" 
+        "id": 6,
+        "pergunta": "O que deve ser feito em caso de vazamento de um produto perigoso durante o transporte?",
+        "r01": "Isolar a área e acionar os órgãos de emergência.",
+        "r02": "Continuar a viagem até o destino final.",
+        "r03": "Tentar consertar o vazamento sem ajuda especializada.",
+        "r04": "Ignorar o vazamento se for pequeno."
     },
     {
-        "id": "",
-        "pergunta": "Ao condutor que tenha Permissão para Dirigir na categoria B será conferida a Carteira Nacional de Habilitação após um ano:",
-        "r01": "desde que não tenha cometido nenhuma infração de natureza grave ou gravíssima, ou seja reincidente em infração média.",
-        "r02": "desde que não tenha cometido nenhuma infração de natureza gravíssima.",
-        "r03": "desde que não tenha cometido nenhuma infração de natureza grave ou gravíssima.",
-        "r04": "desde que não tenha cometido nenhuma infração." 
+        "id": 7,
+        "pergunta": "Qual é a função do rótulo de risco em uma embalagem de produto perigoso?",
+        "r01": "Identificar visualmente o tipo de risco do produto.",
+        "r02": "Indicar o peso da embalagem.",
+        "r03": "Mostrar o destino do produto.",
+        "r04": "Informar o fabricante do produto."
     },
     {
-        "id": "",
-        "pergunta": "Transitar com o veículo em ciclovias ou ciclofaixa é?",
-        "r01": "Infração gravíssima sujeito a multa.",
-        "r02": "Permitido, caso não haja fluxo de ciclistas.",
-        "r03": "Permitido, caso seja feito com velocidade compatível com a segurança.",
-        "r04": "Proibido e sujeito a penalidade de advertência." 
+        "id": 8,
+        "pergunta": "Qual é a documentação obrigatória para o transporte de produtos perigosos?",
+        "r01": "Ficha de Emergência, Envelope de Transporte e Documento Fiscal.",
+        "r02": "Apenas a Carteira Nacional de Habilitação (CNH).",
+        "r03": "Apenas o Documento Fiscal.",
+        "r04": "Nenhum documento é necessário."
     },
     {
-        "id": "",
-        "pergunta": "Segundo o Código de Trânsito Brasileiro, parágrafo 2º do art. 147, o exame de aptidão física e mental será preliminar e renovável. Qual a periodicidade de renovação desse exame para quem tem idade inferior a 50 anos?",
-        "r01": "10 anos",
-        "r02": "15 anos",
-        "r03": "5 anos",
-        "r04": "3 anos" 
+        "id": 9,
+        "pergunta": "O que é a Ficha de Emergência no transporte de produtos perigosos?",
+        "r01": "Um documento que orienta sobre como agir em caso de acidentes.",
+        "r02": "Um formulário para registrar multas de trânsito.",
+        "r03": "Um relatório de inspeção do veículo.",
+        "r04": "Um documento que lista os produtos transportados."
     },
     {
-        "id": "",
-        "pergunta": "Em que locais não se podem realizar ultrapassagens?",
-        "r01": "Em curvas e faixas contínuas.",
-        "r02": "A ultrapassagem nunca deve ocorrer para não causar acidentes.",
-        "r03": "Onde há cones e paredes.",
-        "r04": "Espaços influentes e em marcha à ré." 
+        "id": 10,
+        "pergunta": "Qual é a classe de risco para produtos corrosivos no transporte de cargas perigosas?",
+        "r01": "Classe 8.",
+        "r02": "Classe 2.",
+        "r03": "Classe 4.",
+        "r04": "Classe 6."
     },
     {
-        "id": "",
-        "pergunta": "Do ponto de vista da direção defensiva, um condutor responsável pode ser reconhecido quando:",
-        "r01": "dimensiona os riscos e age com cautela antecipadamente, mesmo que a situação tenha sido criada por outro usuário da via",
-        "r02": "acha que é seguro ao fazer ultrapassagem de outro veículo sobre pontes em uma rodovia",
-        "r03": "manifesta total controle sobre o veículo que não precisa dirigir com as duas mãos ao volante",
-        "r04": "demonstra toda sua habilidade ao dirigir sob intensa neblina, mantendo a mesma velocidade em que vinha dirigindo" 
+        "id": 11,
+        "pergunta": "O que significa o número 1203 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como gasolina.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
     },
     {
-        "id": "",
-        "pergunta": "Em direção segura, há a sugestão da “regra dos dois segundos”, que consiste em o condutor:",
-        "r01": "calcular uma distância segura em relação ao veículo que trafega à sua frente",
-        "r02": "prever se é possível atravessar um cruzamento quando o semáforo ainda está no amarelo",
-        "r03": "avaliar o comportamento dos veículos à sua volta e procurar antever as situações de perigo",
-        "r04": "desviar seu olhar da pista, sem que correr riscos de acidente, no período máximo de dois segundos" 
+        "id": 12,
+        "pergunta": "Qual é a função do Envelope de Transporte no TPP?",
+        "r01": "Armazenar documentos obrigatórios para o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
     },
     {
-        "id": "",
-        "pergunta": "Algumas ações dos ciclistas no trânsito impactam diretamente na sua própria segurança, portanto devem:",
-        "r01": "Sinalizar suas intenções.",
-        "r02": "Trafegar nas vias junto aos carros.",
-        "r03": "Manter a distância de 1m dos veículos.",
-        "r04": "Utilizar fones de ouvido." 
+        "id": 13,
+        "pergunta": "Qual é a velocidade máxima permitida para veículos que transportam produtos perigosos em rodovias?",
+        "r01": "80 km/h.",
+        "r02": "90 km/h.",
+        "r03": "100 km/h.",
+        "r04": "110 km/h."
     },
     {
-        "id": "",
-        "pergunta": "Quais são os elementos fundamentais da Direção Defensiva?",
-        "r01": "Conhecimento, atenção, previsão, decisão, habilidade.",
-        "r02": "Concentração, cordialidade, afetividade, agilidade, iniciativa.",
-        "r03": "Prontidão, dinamismo, premonição, discernimento.",
-        "r04": "Disposição, integração, capacidade, boa visão e audição." 
+        "id": 14,
+        "pergunta": "O que significa a sigla FISPQ no transporte de produtos perigosos?",
+        "r01": "Ficha de Informações de Segurança de Produtos Químicos.",
+        "r02": "Formulário de Inspeção de Segurança de Produtos Químicos.",
+        "r03": "Ficha de Identificação de Substâncias Perigosas.",
+        "r04": "Formulário de Inspeção de Substâncias Perigosas."
     },
     {
-        "id": "",
-        "pergunta": "Os procedimentos de reduzir a velocidade, acender faróis baixos, aumentar a distância de segurança e redobrar a atenção, devem ser tomadas pelo condutor nas ocasiões de:",
-        "r01": "chuva e má visibilidade",
-        "r02": "ofuscamento da visão",
-        "r03": "aquaplanagem",
-        "r04": "trânsito intenso" 
+        "id": 15,
+        "pergunta": "Qual é a classe de risco para gases comprimidos no transporte de cargas perigosas?",
+        "r01": "Classe 2.",
+        "r02": "Classe 1.",
+        "r03": "Classe 3.",
+        "r04": "Classe 4."
     },
     {
-        "id": "",
-        "pergunta": "O que pode alterar o estado mental do condutor?",
-        "r01": "As grandes preocupações, tristezas, inseguranças, depressão, medos, que ocorrem na vida das pessoas.",
-        "r02": "O manual de instruções do veículo.",
-        "r03": "A ultrapassagem correta.",
-        "r04": "Os sinais de trânsito." 
+        "id": 16,
+        "pergunta": "O que significa o número 4 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é inflamável.",
+        "r02": "Indica que o produto é corrosivo.",
+        "r03": "Indica que o produto é tóxico.",
+        "r04": "Indica que o produto é radioativo."
     },
     {
-        "id": "",
-        "pergunta": "Em direção defensiva, habilidade significa:",
-        "r01": "Manusear todos os comandos com desenvoltura.",
-        "r02": "Dirigir em alta velocidade e não colidir o veículo.",
-        "r03": "Saber dirigir com cuidado, mesmo estando alcoolizado.",
-        "r04": "Significa dirigir bem, sem acidentes, mesmo sem ter a Carteira Nacional de Habilitação." 
+        "id": 17,
+        "pergunta": "Qual é a função do Kit de Emergência no transporte de produtos perigosos?",
+        "r01": "Fornecer equipamentos para situações de emergência.",
+        "r02": "Armazenar documentos do veículo.",
+        "r03": "Identificar o tipo de produto transportado.",
+        "r04": "Sinalizar que o veículo está em emergência."
     },
     {
-        "id": "",
-        "pergunta": "O condutor deve manter constantemente sua atenção na direção do veículo. Alguns fatores diminuem a concentração e retardam os reflexos na condução do veículo. A ação que deve ser evitada, pois pode afetar a concentração do condutor, é:",
-        "r01": "conversar ao celular, no modo viva-voz.",
-        "r02": "ouvir música suave, em volume moderado.",
-        "r03": "fazer uma refeição leve antes de dirigir.",
-        "r04": "trafegar por lugares desconhecidos, não habituais." 
+        "id": 18,
+        "pergunta": "O que significa a sigla EPI no contexto do transporte de produtos perigosos?",
+        "r01": "Equipamento de Proteção Individual.",
+        "r02": "Equipamento de Prevenção de Incêndios.",
+        "r03": "Equipamento de Proteção de Inflamáveis.",
+        "r04": "Equipamento de Prevenção de Intoxicação."
     },
     {
-        "id": "",
-        "pergunta": "Ultrapassagens sem segurança podem causar acidentes graves, até mesmo com mortes, decorrentes de colisões com veículos que seguem em sentido contrário. Por esse motivo, é proibido realizar ultrapassagem em:",
-        "r01": "Aclives e lombadas.",
-        "r02": "Locais apropriados.",
-        "r03": "Condições com boa visibilidade.",
-        "r04": "Lugares permitidos." 
+        "id": 19,
+        "pergunta": "Qual é a classe de risco para produtos radioativos no transporte de cargas perigosas?",
+        "r01": "Classe 7.",
+        "r02": "Classe 6.",
+        "r03": "Classe 5.",
+        "r04": "Classe 4."
     },
     {
-        "id": "",
-        "pergunta": "Durante ou após a chuva, a água sobre a pista pode provocar aquaplanagem, situação que impede a aderência dos pneus ao solo. Para evitar que isso ocorra, qual é o procedimento correto?",
-        "r01": "Tirar o pé do acelerador, não acionar o freio, não virar o volante para a direita ou para a esquerda e não usar marcha de força.",
-        "r02": "Não tirar o pé do acelerador, não acionar o freio, virar o volante para a direita e usar marcha de força.",
-        "r03": "Tirar o pé do acelerador, acionar o freio, virar o volante para a direita e não usar marcha de força.",
-        "r04": "Não tirar o pé do acelerador, acionar o freio e virar o volante para a esquerda." 
+        "id": 20,
+        "pergunta": "O que significa o número 8 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é corrosivo.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é tóxico.",
+        "r04": "Indica que o produto é radioativo."
     },
     {
-        "id": "",
-        "pergunta": "Os ferimentos abertos e fechados são lesões na pele que foram causadas por corte ou perfuração. Durante o primeiro atendimento o que deve ser feito?",
-        "r01": "Usar luvas, nunca retirar qualquer material estranho dos ferimentos e não apertar demais a atadura quando for colocá-la.",
-        "r02": "Usar luvas, retirar qualquer material estranho dos ferimentos e não apertar demais a atadura quando for colocá-la e oferecer água à vítima.",
-        "r03": "Usar luvas, apertar bastante a faixa quando for colocá-la e realize o curativo de três pontos.",
-        "r04": "Retirar qualquer material estranho dos ferimentos e apertar bem a atadura quando, para estancar o sangramento." 
+        "id": 21,
+        "pergunta": "Qual é a função do Certificado de Capacitação para o transporte de produtos perigosos?",
+        "r01": "Comprovar que o condutor está habilitado para transportar cargas perigosas.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
     },
     {
-        "id": "",
-        "pergunta": "Diante da relação ser humano – meio ambiente – veículo, pode-se afirmar que:",
-        "r01": "Lavar o carro com mangueira provoca um grande desperdício de água.",
-        "r02": "Não há relação entre preservação ambiental com a lavagem de veículos.",
-        "r03": "Ao lavar o carro, não precisa lavar os pneus, pois irão sujar de novo depois.",
-        "r04": "Deve-se somente lavar os vidros do carro, nada mais." 
+        "id": 22,
+        "pergunta": "O que significa a sigla CIPP no transporte de produtos perigosos?",
+        "r01": "Certificado de Inspeção para Produtos Perigosos.",
+        "r02": "Certificado de Identificação de Produtos Perigosos.",
+        "r03": "Certificado de Inspeção de Proteção Periódica.",
+        "r04": "Certificado de Identificação de Proteção Periódica."
     },
     {
-        "id": "",
-        "pergunta": "Qual das ações abaixo devem ser executadas diante da ocorrência de acidentes de trânsito?",
-        "r01": "Evitar pânico no local, pois essa reação poderá assustar a vítima.",
-        "r02": "Permitir que pessoas que estão próximas do acidente colaborem no atendimento à vítima.",
-        "r03": "Desligar a chave de ignição e os cabos da bateria dos veículos envolvidos no acidente mesmo em caso de incêndio do veículo.",
-        "r04": "Chamar o serviço especializado para utilizar o extintor de incêndio, e não manusear esse equipamento mesmo que tenha conhecimento de como usá-lo." 
+        "id": 23,
+        "pergunta": "Qual é a classe de risco para produtos tóxicos no transporte de cargas perigosas?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
     },
     {
-        "id": "",
-        "pergunta": "A poluição atmosférica, visual, sonora e de gases poluentes é provocada pelo:",
-        "r01": "desequilíbrio na relação trânsito e meio ambiente",
-        "r02": "uso inadequado do acostamento como lugar de descanso",
-        "r03": "excesso de velocidade e descaso à sinalização",
-        "r04": "mau planejamento de estradas" 
+        "id": 24,
+        "pergunta": "O que significa o número 3 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é inflamável.",
+        "r02": "Indica que o produto é corrosivo.",
+        "r03": "Indica que o produto é tóxico.",
+        "r04": "Indica que o produto é radioativo."
     },
     {
-        "id": "",
-        "pergunta": "O que o condutor deve fazer quando se envolve em um acidente de trânsito ou quando presencia um acidente?",
-        "r01": "Deve-se sinalizar a área em que o acidente ocorreu para evitar novos acidentes.",
-        "r02": "Em acidentes sem vítimas, é obrigatório acionar a autoridade de trânsito mais próxima.",
-        "r03": "Deve-se prestar os primeiros socorros retirando as vítimas do local e colocando-as no acostamento.",
-        "r04": "Quando o acidente não tiver vítimas, é obrigatório realizar o Boletim de Ocorrências (BO)." 
+        "id": 25,
+        "pergunta": "Qual é a função do Dispositivo de Segurança no transporte de produtos perigosos?",
+        "r01": "Prevenir acidentes e garantir a segurança do transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
     },
     {
-        "id": "",
-        "pergunta": "Quais os detalhes você deverá informar nas ligações de solicitação de socorro em caso de acidentes?",
-        "r01": "Local exato e tipo de acidente",
-        "r02": "Nome dos parentes da vítima.",
-        "r03": "Grau de escolaridade da vítima.",
-        "r04": "Tipo de acidente e local onde a vítima estudou" 
+        "id": 26,
+        "pergunta": "Qual é a classe de risco para produtos oxidantes no transporte de cargas perigosas?",
+        "r01": "Classe 5.",
+        "r02": "Classe 6.",
+        "r03": "Classe 7.",
+        "r04": "Classe 8."
     },
     {
-        "id": "",
-        "pergunta": "O que significa a sigla CONAMA?",
-        "r01": "Conselho nacional do meio ambiente",
-        "r02": "Conselho nacional meio ambientalismo.",
-        "r03": "Conselho ambiental mundial.",
-        "r04": "Conselho nacional amazônico." 
+        "id": 27,
+        "pergunta": "O que significa o número 2 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é um gás.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é tóxico."
     },
     {
-        "id": "",
-        "pergunta": "Em acidentes com motociclistas, devemos:",
-        "r01": "Não remover o capacete e permanecer aguardando socorro",
-        "r02": "Remover o capacete para que respire melhor.",
-        "r03": "Mudar a posição do motociclista para acomodá-lo melhor.",
-        "r04": "Só remover o capacete se ele estiver com muita dor." 
+        "id": 28,
+        "pergunta": "Qual é a função do Dispositivo de Controle de Derramamento no transporte de produtos perigosos?",
+        "r01": "Evitar vazamentos e derramamentos durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
     },
     {
-        "id": "",
-        "pergunta": "Os veículos que apresentam maior potencial de poluição do ar são aqueles:",
-        "r01": "Que utilizam como combustíveis a gasolina e o diesel",
-        "r02": "Que utilizam o sistema elétrico.",
-        "r03": "Movidos a propulsão humana.",
-        "r04": "Que utilizam gás natural" 
+        "id": 29,
+        "pergunta": "O que significa a sigla CIV no transporte de produtos perigosos?",
+        "r01": "Certificado de Inspeção Veicular.",
+        "r02": "Certificado de Identificação de Veículos.",
+        "r03": "Certificado de Inspeção de Vazamentos.",
+        "r04": "Certificado de Identificação de Vias."
     },
     {
-        "id": "",
-        "pergunta": "Os tipos de extintores são:",
-        "r01": "pó químico, água pressurizada, espuma mecânica e gás carbônico",
-        "r02": "somente água pressurizada e pó químico",
-        "r03": "somente pó químico",
-        "r04": "apenas gás carbônico e água pressurizada" 
+        "id": 30,
+        "pergunta": "Qual é a classe de risco para produtos explosivos no transporte de cargas perigosas?",
+        "r01": "Classe 1.",
+        "r02": "Classe 2.",
+        "r03": "Classe 3.",
+        "r04": "Classe 4."
     },
     {
-        "id": "",
-        "pergunta": "Quais os processos de extinção do fogo?",
-        "r01": "Resfriamento, abafamento e isolamento.",
-        "r02": "Congelamento do fogo.",
-        "r03": "Resfriamento e congelamento do material.",
-        "r04": "Primário e secundário." 
-    }    
+        "id": 31,
+        "pergunta": "O que significa o número 6 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é tóxico.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é radioativo."
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual é a função do Sistema de Fixação de Carga no transporte de produtos perigosos?",
+        "r01": "Garantir que a carga permaneça segura durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 33,
+        "pergunta": "O que significa a sigla CIPP no transporte de produtos perigosos?",
+        "r01": "Certificado de Inspeção para Produtos Perigosos.",
+        "r02": "Certificado de Identificação de Produtos Perigosos.",
+        "r03": "Certificado de Inspeção de Proteção Periódica.",
+        "r04": "Certificado de Identificação de Proteção Periódica."
+    },
+    {
+        "id": 34,
+        "pergunta": "Qual é a classe de risco para produtos infecciosos no transporte de cargas perigosas?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 35,
+        "pergunta": "O que significa o número 9 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é uma substância perigosa diversa.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é radioativo."
+    },
+    {
+        "id": 36,
+        "pergunta": "Qual é a função do Sistema de Monitoramento de Carga no transporte de produtos perigosos?",
+        "r01": "Controlar as condições da carga durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 37,
+        "pergunta": "O que significa a sigla GHS no transporte de produtos perigosos?",
+        "r01": "Sistema Globalmente Harmonizado de Classificação e Rotulagem de Produtos Químicos.",
+        "r02": "Grupo de Homologação de Segurança.",
+        "r03": "Guia de Homologação de Substâncias.",
+        "r04": "Grupo de Harmonização de Substâncias."
+    },
+    {
+        "id": 38,
+        "pergunta": "Qual é a classe de risco para produtos perigosos diversos no transporte de cargas perigosas?",
+        "r01": "Classe 9.",
+        "r02": "Classe 8.",
+        "r03": "Classe 7.",
+        "r04": "Classe 6."
+    },
+    {
+        "id": 39,
+        "pergunta": "O que significa o número 1 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é explosivo.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é tóxico."
+    },
+    {
+        "id": 40,
+        "pergunta": "Qual é a função do Sistema de Comunicação de Emergência no transporte de produtos perigosos?",
+        "r01": "Permitir a comunicação rápida em caso de acidentes.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 41,
+        "pergunta": "O que significa a sigla RTQ no transporte de produtos perigosos?",
+        "r01": "Regulamento Técnico de Qualidade.",
+        "r02": "Regulamento de Transporte de Químicos.",
+        "r03": "Regulamento Técnico de Químicos.",
+        "r04": "Regulamento de Transporte de Qualidade."
+    },
+    {
+        "id": 42,
+        "pergunta": "Qual é a classe de risco para produtos que emitem gases inflamáveis em contato com a água?",
+        "r01": "Classe 4.",
+        "r02": "Classe 5.",
+        "r03": "Classe 6.",
+        "r04": "Classe 7."
+    },
+    {
+        "id": 43,
+        "pergunta": "O que significa o número 5 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é oxidante.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é tóxico."
+    },
+    {
+        "id": 44,
+        "pergunta": "Qual é a função do Sistema de Controle de Temperatura no transporte de produtos perigosos?",
+        "r01": "Manter a temperatura adequada da carga durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 45,
+        "pergunta": "O que significa a sigla IMO no transporte de produtos perigosos?",
+        "r01": "Organização Marítima Internacional.",
+        "r02": "Instituto de Monitoramento de Operações.",
+        "r03": "Instituto Marítimo de Operações.",
+        "r04": "Organização Internacional de Monitoramento."
+    },
+    {
+        "id": 46,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar combustão espontânea?",
+        "r01": "Classe 4.",
+        "r02": "Classe 5.",
+        "r03": "Classe 6.",
+        "r04": "Classe 7."
+    },
+    {
+        "id": 47,
+        "pergunta": "O que significa o número 7 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que o produto é radioativo.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é tóxico."
+    },
+    {
+        "id": 48,
+        "pergunta": "Qual é a função do Sistema de Alarme no transporte de produtos perigosos?",
+        "r01": "Alertar sobre situações de risco durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 49,
+        "pergunta": "O que significa a sigla ANTT no transporte de produtos perigosos?",
+        "r01": "Agência Nacional de Transportes Terrestres.",
+        "r02": "Associação Nacional de Transportes Terrestres.",
+        "r03": "Agência Nacional de Trânsito Terrestre.",
+        "r04": "Associação Nacional de Trânsito Terrestre."
+    },
+    {
+        "id": 50,
+        "pergunta": "Qual é a classe de risco para produtos que podem liberar gases tóxicos em contato com a água?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 51,
+        "pergunta": "O que significa o número 0 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Indica que não há risco secundário.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Indica que o produto é corrosivo.",
+        "r04": "Indica que o produto é tóxico."
+    },
+    {
+        "id": 52,
+        "pergunta": "Qual é a função do Sistema de Ventilação no transporte de produtos perigosos?",
+        "r01": "Controlar a temperatura e a pressão interna do veículo.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 53,
+        "pergunta": "O que significa a sigla ISO no transporte de produtos perigosos?",
+        "r01": "Organização Internacional para Padronização.",
+        "r02": "Instituto de Segurança Operacional.",
+        "r03": "Instituto de Segurança de Operações.",
+        "r04": "Organização de Segurança Internacional."
+    },
+    {
+        "id": 54,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar corrosão em metais?",
+        "r01": "Classe 8.",
+        "r02": "Classe 7.",
+        "r03": "Classe 6.",
+        "r04": "Classe 5."
+    },
+    {
+        "id": 55,
+        "pergunta": "O que significa o número 30 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como gasolina.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 56,
+        "pergunta": "Qual é a função do Sistema de Extintores no transporte de produtos perigosos?",
+        "r01": "Combater incêndios durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 57,
+        "pergunta": "O que significa a sigla NR-20 no transporte de produtos perigosos?",
+        "r01": "Norma Regulamentadora sobre Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis.",
+        "r02": "Norma Regulamentadora sobre Transporte de Produtos Perigosos.",
+        "r03": "Norma Regulamentadora sobre Inspeção de Veículos.",
+        "r04": "Norma Regulamentadora sobre Emergências Químicas."
+    },
+    {
+        "id": 58,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar explosões por decomposição?",
+        "r01": "Classe 1.",
+        "r02": "Classe 2.",
+        "r03": "Classe 3.",
+        "r04": "Classe 4."
+    },
+    {
+        "id": 59,
+        "pergunta": "O que significa o número 1017 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como cloro.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 60,
+        "pergunta": "Qual é a função do Sistema de Controle de Pressão no transporte de produtos perigosos?",
+        "r01": "Manter a pressão adequada da carga durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 61,
+        "pergunta": "O que significa a sigla ABNT no transporte de produtos perigosos?",
+        "r01": "Associação Brasileira de Normas Técnicas.",
+        "r02": "Agência Brasileira de Normas Técnicas.",
+        "r03": "Associação Brasileira de Normas de Transporte.",
+        "r04": "Agência Brasileira de Normas de Transporte."
+    },
+    {
+        "id": 62,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao meio ambiente?",
+        "r01": "Classe 9.",
+        "r02": "Classe 8.",
+        "r03": "Classe 7.",
+        "r04": "Classe 6."
+    },
+    {
+        "id": 63,
+        "pergunta": "O que significa o número 1202 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como diesel.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 64,
+        "pergunta": "Qual é a função do Sistema de Iluminação de Emergência no transporte de produtos perigosos?",
+        "r01": "Fornecer luz em situações de emergência.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 65,
+        "pergunta": "O que significa a sigla CONTRAN no transporte de produtos perigosos?",
+        "r01": "Conselho Nacional de Trânsito.",
+        "r02": "Comissão Nacional de Transportes.",
+        "r03": "Conselho Nacional de Transportes.",
+        "r04": "Comissão Nacional de Trânsito."
+    },
+    {
+        "id": 66,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar reações violentas sem explosão?",
+        "r01": "Classe 4.",
+        "r02": "Classe 5.",
+        "r03": "Classe 6.",
+        "r04": "Classe 7."
+    },
+    {
+        "id": 67,
+        "pergunta": "O que significa o número 1993 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como álcool etílico.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 68,
+        "pergunta": "Qual é a função do Sistema de Comunicação por Rádio no transporte de produtos perigosos?",
+        "r01": "Permitir comunicação contínua durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 69,
+        "pergunta": "O que significa a sigla DPRF no transporte de produtos perigosos?",
+        "r01": "Departamento de Polícia Rodoviária Federal.",
+        "r02": "Departamento de Proteção Rodoviária Federal.",
+        "r03": "Departamento de Prevenção Rodoviária Federal.",
+        "r04": "Departamento de Polícia de Rodovias Federais."
+    },
+    {
+        "id": 70,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar intoxicação por inalação?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 71,
+        "pergunta": "O que significa o número 1789 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como ácido sulfúrico.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 72,
+        "pergunta": "Qual é a função do Sistema de Sinalização Refletiva no transporte de produtos perigosos?",
+        "r01": "Melhorar a visibilidade do veículo durante a noite.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 73,
+        "pergunta": "O que significa a sigla CETESB no transporte de produtos perigosos?",
+        "r01": "Companhia Ambiental do Estado de São Paulo.",
+        "r02": "Companhia de Estudos Técnicos de Segurança Brasileira.",
+        "r03": "Companhia de Estudos Técnicos de Segurança Ambiental.",
+        "r04": "Companhia de Estudos Técnicos de Segurança de Transportes."
+    },
+    {
+        "id": 74,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar queimaduras graves na pele?",
+        "r01": "Classe 8.",
+        "r02": "Classe 7.",
+        "r03": "Classe 6.",
+        "r04": "Classe 5."
+    },
+    {
+        "id": 75,
+        "pergunta": "O que significa o número 1830 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como soda cáustica.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 76,
+        "pergunta": "Qual é a função do Sistema de Controle de Umidade no transporte de produtos perigosos?",
+        "r01": "Manter a umidade adequada da carga durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 77,
+        "pergunta": "O que significa a sigla IBAMA no transporte de produtos perigosos?",
+        "r01": "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
+        "r02": "Instituto Brasileiro de Monitoramento Ambiental.",
+        "r03": "Instituto Brasileiro de Meio Ambiente.",
+        "r04": "Instituto Brasileiro de Análise Ambiental."
+    },
+    {
+        "id": 78,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema respiratório?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 79,
+        "pergunta": "O que significa o número 1950 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como solvente inflamável.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 80,
+        "pergunta": "Qual é a função do Sistema de Monitoramento de Vazamentos no transporte de produtos perigosos?",
+        "r01": "Detectar vazamentos durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 81,
+        "pergunta": "O que significa a sigla DNIT no transporte de produtos perigosos?",
+        "r01": "Departamento Nacional de Infraestrutura de Transportes.",
+        "r02": "Departamento Nacional de Inspeção de Transportes.",
+        "r03": "Departamento Nacional de Infraestrutura Terrestre.",
+        "r04": "Departamento Nacional de Inspeção Terrestre."
+    },
+    {
+        "id": 82,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema nervoso?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 83,
+        "pergunta": "O que significa o número 1267 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como querosene.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 84,
+        "pergunta": "Qual é a função do Sistema de Controle de Vibração no transporte de produtos perigosos?",
+        "r01": "Reduzir a vibração da carga durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 85,
+        "pergunta": "O que significa a sigla ANP no transporte de produtos perigosos?",
+        "r01": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis.",
+        "r02": "Agência Nacional de Proteção Ambiental.",
+        "r03": "Agência Nacional de Produtos Perigosos.",
+        "r04": "Agência Nacional de Prevenção de Acidentes."
+    },
+    {
+        "id": 86,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema cardiovascular?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 87,
+        "pergunta": "O que significa o número 1090 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como acetona.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 88,
+        "pergunta": "Qual é a função do Sistema de Controle de Temperatura Externa no transporte de produtos perigosos?",
+        "r01": "Monitorar a temperatura externa do veículo.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 89,
+        "pergunta": "O que significa a sigla INMETRO no transporte de produtos perigosos?",
+        "r01": "Instituto Nacional de Metrologia, Qualidade e Tecnologia.",
+        "r02": "Instituto Nacional de Monitoramento de Transportes.",
+        "r03": "Instituto Nacional de Metrologia e Tecnologia.",
+        "r04": "Instituto Nacional de Monitoramento de Produtos Perigosos."
+    },
+    {
+        "id": 90,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema digestivo?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 91,
+        "pergunta": "O que significa o número 1170 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como etanol.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 92,
+        "pergunta": "Qual é a função do Sistema de Controle de Umidade Externa no transporte de produtos perigosos?",
+        "r01": "Monitorar a umidade externa do veículo.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 93,
+        "pergunta": "O que significa a sigla MAPA no transporte de produtos perigosos?",
+        "r01": "Ministério da Agricultura, Pecuária e Abastecimento.",
+        "r02": "Ministério do Meio Ambiente e Proteção Ambiental.",
+        "r03": "Ministério da Administração Pública e Ambiental.",
+        "r04": "Ministério da Agricultura e Proteção Ambiental."
+    },
+    {
+        "id": 94,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema reprodutivo?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 95,
+        "pergunta": "O que significa o número 1230 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como metanol.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 96,
+        "pergunta": "Qual é a função do Sistema de Controle de Pressão Externa no transporte de produtos perigosos?",
+        "r01": "Monitorar a pressão externa do veículo.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    },
+    {
+        "id": 97,
+        "pergunta": "O que significa a sigla DNPM no transporte de produtos perigosos?",
+        "r01": "Departamento Nacional de Produção Mineral.",
+        "r02": "Departamento Nacional de Proteção Mineral.",
+        "r03": "Departamento Nacional de Pesquisa Mineral.",
+        "r04": "Departamento Nacional de Prevenção Mineral."
+    },
+    {
+        "id": 98,
+        "pergunta": "Qual é a classe de risco para produtos que podem causar danos ao sistema imunológico?",
+        "r01": "Classe 6.",
+        "r02": "Classe 5.",
+        "r03": "Classe 4.",
+        "r04": "Classe 3."
+    },
+    {
+        "id": 99,
+        "pergunta": "O que significa o número 1294 no painel de segurança de um veículo que transporta produtos perigosos?",
+        "r01": "Identifica o produto como tolueno.",
+        "r02": "Indica que o produto é inflamável.",
+        "r03": "Mostra a quantidade de produto transportado.",
+        "r04": "Indica a classe de risco do produto."
+    },
+    {
+        "id": 100,
+        "pergunta": "Qual é a função do Sistema de Controle de Gases no transporte de produtos perigosos?",
+        "r01": "Monitorar a emissão de gases durante o transporte.",
+        "r02": "Identificar o tipo de produto transportado.",
+        "r03": "Sinalizar que o veículo está em emergência.",
+        "r04": "Mostrar a rota que o veículo deve seguir."
+    }
 ]
