@@ -1,5 +1,4 @@
-const questoes = [    
-    [
+const questoes = [        
         [
             "Qual é a definição de produto perigoso no contexto do transporte de cargas perigosas?",
             "Produto que, por suas características, pode causar riscos à saúde, segurança e ao meio ambiente.",
